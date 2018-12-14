@@ -1,0 +1,61 @@
+
+// Utility
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+
+// Clear a float with .clearfix
+.clearfix
+
+	&:after
+		clear: both
+		content: ' ' // The space content is one way to avoid an Opera bug.
+		display: table
+
+// Float either direction
+.float-left
+	float: left
+
+.float-right
+	float: right
+
+.screen-reader-text
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute !important;
+	width: 1px;
+	word-wrap: normal !important;
+
+
+$scaleup-11:            9.492rem; //152px
+$scaleup-10:            7.594rem; //121px
+$scaleup-9:             6.328rem; //101px
+$scaleup-8:             5.063rem; //81px
+$scaleup-7:             4.219rem; //68px
+$scaleup-6:             3.375rem; //54px
+$scaleup-5:             2.813rem; //45px
+$scaleup-4:             2.25rem; //36px
+$scaleup-3:             1.875rem; //30px
+$scaleup-2:             1.5rem; //24px
+$scaleup-1:             1.25rem; //20px
+$scale-0:               1rem; //16px
+$scaledown-1:           0.833rem; //13px
+$scaledown-2:           0.667rem; //11px
+$scaledown-3:           0.556rem; //9px
+$scaledown-4:           0.444rem; //7px
+$scaledown-5:           0.37rem; //6px
+$scaledown-6:           0.296rem; //5px
+$scaledown-7:           0.197rem; //3px
+
+
+.p-top-bottom
+	padding: $scaleup-9 0;
+
+.p-1
+	padding: $scaleup-1;
+
+.p-2
+	padding: $scaleup-2;

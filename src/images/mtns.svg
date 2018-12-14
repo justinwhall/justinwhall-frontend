@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="210px" height="119px" viewBox="0 0 210 119" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <rect id="path-1" x="0" y="0" width="212" height="128"></rect>
+        <rect id="path-3" x="0" y="0" width="400" height="260"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="saved0" transform="translate(-1.000000, -9.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask"></g>
+            <g mask="url(#mask-2)" id="Group">
+                <g transform="translate(-99.000000, -126.000000)">
+                    <g>
+                        <g id="Clipped">
+                            <mask id="mask-4" fill="white">
+                                <use xlink:href="#path-3"></use>
+                            </mask>
+                            <g id="Rectangle-path"></g>
+                            <g id="Group" mask="url(#mask-4)">
+                                <g transform="translate(0.000000, 80.000000)">
+                                    <g transform="translate(100.000000, 55.000000)">
+                                        <polygon id="Shape" fill="#7B9DCD" fill-rule="nonzero" points="100 0 100 120 0 120"></polygon>
+                                        <polygon id="Shape" fill="#4B70A4" fill-rule="nonzero" points="100 0 200 120 100 120"></polygon>
+                                        <polygon id="Shape" fill="#FFFFFF" fill-rule="nonzero" points="100 0 100 30 75 30"></polygon>
+                                        <polygon id="Shape" fill="#BBBBBB" fill-rule="nonzero" points="100 0 125 30 100 30"></polygon>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        <g transform="translate(100.000000, 205.000000)" id="Shape" fill-rule="nonzero">
+                            <polygon fill="#49934E" points="15 0 15 50 0 50"></polygon>
+                            <polygon fill="#3D7C42" points="15 0 15 50 30 50"></polygon>
+                        </g>
+                        <g transform="translate(130.000000, 205.000000)" id="Shape" fill-rule="nonzero">
+                            <polygon fill="#49934E" points="15 0 15 50 0 50"></polygon>
+                            <polygon fill="#3D7C42" points="15 0 15 50 30 50"></polygon>
+                        </g>
+                        <g transform="translate(160.000000, 205.000000)" id="Shape" fill-rule="nonzero">
+                            <polygon fill="#49934E" points="15 0 15 50 0 50"></polygon>
+                            <polygon fill="#3D7C42" points="15 0 15 50 30 50"></polygon>
+                        </g>
+                        <g transform="translate(190.000000, 205.000000)" id="Shape" fill-rule="nonzero">
+                            <polygon fill="#49934E" points="15 0 15 50 0 50"></polygon>
+                            <polygon fill="#3D7C42" points="15 0 15 50 30 50"></polygon>
+                        </g>
+                        <g transform="translate(220.000000, 205.000000)" id="Shape" fill-rule="nonzero">
+                            <polygon fill="#49934E" points="15 0 15 50 0 50"></polygon>
+                            <polygon fill="#3D7C42" points="15 0 15 50 30 50"></polygon>
+                        </g>
+                        <g transform="translate(250.000000, 205.000000)" id="Shape" fill-rule="nonzero">
+                            <polygon fill="#49934E" points="15 0 15 50 0 50"></polygon>
+                            <polygon fill="#3D7C42" points="15 0 15 50 30 50"></polygon>
+                        </g>
+                        <g transform="translate(280.000000, 205.000000)" id="Shape" fill-rule="nonzero">
+                            <polygon fill="#49934E" points="15 0 15 50 0 50"></polygon>
+                            <polygon fill="#3D7C42" points="15 0 15 50 30 50"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

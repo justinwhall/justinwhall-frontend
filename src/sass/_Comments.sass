@@ -1,0 +1,146 @@
+.post-code
+	margin-bottom: 20px
+
+.comments-wrap
+	background: fade-out($lblue, .8)
+	overflow: hidden
+
+	h3
+		margin-top: 20px
+		display: block
+
+	.comments-title-wrap
+		background: $berry;
+		padding: $scaleup-2;
+		color: #fff
+		text-align: center;
+		margin-bottom: $scaleup-6
+
+		h2
+			margin-bottom: 0
+
+
+	.container
+		max-width: 1010px;
+		margin: auto
+
+#comments
+
+	li
+		list-style: none;
+
+	.avatar
+		border-radius: 100%
+
+.comment
+	margin-bottom: $scaleup-8
+
+
+	.reply
+		position: absolute
+		bottom: 0
+		right: 0
+
+		a
+			background: $dblue
+			display: block
+			color: #ffffff
+			font-size: $scale-0
+			padding: $scaledown-2 $scale-0
+
+.comment-content
+	background: #fff
+	padding: $scaleup-4
+
+.says
+	display: none;
+
+.comment-metadata a
+	color: $lblue
+	font-size: $scale-0
+
+.comment-body
+	position: relative
+	font-size: $scaleup-3
+	color: $dblue
+	font-weight: normal
+
+.comment-meta
+	position: relative
+	flex: 0 0 27rem
+	padding-right: $scaleup-1
+
+	.avatar
+		position: absolute
+
+	.fn,
+	.fn a
+		color: $dblue
+
+	.fn,
+	.comment-metadata
+		margin-left: 85px
+		line-height: 1.2
+		display: block
+
+.comment-content
+	flex-grow: 1
+
+#reply-title
+	color: #fff
+	padding: $scaleup-2
+	background: $berry
+	text-align: center
+	display: block
+	margin-bottom: 0
+
+// we've moved the comment reply form up with js
+.comment-list #respond
+	background-image: url(../images/bg-body.png);
+
+	form
+		width: 100%
+		max-width: 100%
+		background-color: fade-out($lblue, .8)
+
+	.comment-form-before
+		max-width: 740px
+		margin: 0 auto
+
+.respond-wrap,
+	background-image: url(../images/bg-body.png);
+
+#respond,
+	background-color: fade-out($lblue, .8)
+
+	form
+		margin: 0 auto
+		max-width: 785px
+		padding-top: $scaleup-4
+		padding-bottom: $scaleup-8
+		padding-right: $scaleup-4
+		padding-left: $scaleup-4
+
+	.form-submit
+		margin-bottom: 0
+
+	textarea
+		min-height: 250px
+		max-width: 100%
+		min-width: 100%
+
+	.comment-notes
+		font-size: $scaleup-2
+
+.comment-awaiting-moderation
+	font-size: $scaleup-1
+	margin-top: 20px;
+	color: #fff
+	background: $berry
+	text-align: center
+	padding: $scaleup-1
+
+/* Larger than tablet screen */
+@media (min-width: 70.0rem)
+	.comment-body
+		display: flex

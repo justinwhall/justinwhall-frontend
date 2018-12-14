@@ -1,0 +1,47 @@
+#colophon
+	background: $dblue;
+	color: $mblue;
+	overflow: hidden
+	padding: $scaleup-4
+
+	.row
+		flex-direction: column
+
+	.copy
+		font-size: $scaleup-2
+		text-align: center
+
+	ul
+		list-style: none;
+		text-align: center;
+		margin-bottom: 0;
+
+	li
+		margin-bottom: 0;
+
+	a
+		color: #fff;
+		font-size: $scaleup-2;
+
+@media (min-width: 45.0rem)
+	.footer-menu
+
+		ul
+			display: flex
+
+		li
+			flex-grow: 1
+
+
+/* Larger than tablet screen */
+@media (min-width: 75.0rem)
+	#colophon
+
+		.row
+			flex-direction: row
+
+		.copy
+			text-align: right;
+
+/* Larger than desktop screen */
+// @media (min-width: 120.0rem)

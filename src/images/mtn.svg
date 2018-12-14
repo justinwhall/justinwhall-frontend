@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <circle id="path-1" cx="100" cy="100" r="100"></circle>
+        <rect id="path-3" x="0" y="0" width="400" height="260"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="saved0">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Oval"></g>
+            <g id="Group" mask="url(#mask-2)">
+                <g transform="translate(-150.000000, -150.000000)">
+                    <rect id="Rectangle-path" fill="#93CEF5" fill-rule="nonzero" x="0" y="0" width="500" height="500"></rect>
+                    <g id="Clipped" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(50.000000, 50.000000)">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <g id="Rectangle-path"></g>
+                        <g id="Group" mask="url(#mask-4)">
+                            <g transform="translate(0.000000, 80.000000)">
+                                <rect id="Rectangle-path" fill="#E63946" fill-rule="nonzero" x="0" y="0" width="350" height="70"></rect>
+                                <rect id="Rectangle-path" fill="#EC6670" fill-rule="nonzero" x="0" y="70" width="350" height="50"></rect>
+                                <rect id="Rectangle-path" fill="#F1949B" fill-rule="nonzero" x="0" y="120" width="350" height="50"></rect>
+                                <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(100.000000, 55.000000)">
+                                    <polygon id="Shape" fill="#2A4C7D" fill-rule="nonzero" points="100 0 100 120 0 120"></polygon>
+                                    <polygon id="Shape" fill="#1D3557" fill-rule="nonzero" points="100 0 200 120 100 120"></polygon>
+                                    <polygon id="Shape" fill="#FFFFFF" fill-rule="nonzero" points="100 0 100 30 75 30"></polygon>
+                                    <polygon id="Shape" fill="#BBBBBB" fill-rule="nonzero" points="100 0 125 30 100 30"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(150.000000, 255.000000)">
+                        <polygon id="Shape" fill="#49934E" fill-rule="nonzero" points="15 0 15 50 0 50"></polygon>
+                        <polygon id="Shape" fill="#3D7C42" fill-rule="nonzero" points="15 0 15 50 30 50"></polygon>
+                    </g>
+                    <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(180.000000, 255.000000)">
+                        <polygon id="Shape" fill="#49934E" fill-rule="nonzero" points="15 0 15 50 0 50"></polygon>
+                        <polygon id="Shape" fill="#3D7C42" fill-rule="nonzero" points="15 0 15 50 30 50"></polygon>
+                    </g>
+                    <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(210.000000, 255.000000)">
+                        <polygon id="Shape" fill="#49934E" fill-rule="nonzero" points="15 0 15 50 0 50"></polygon>
+                        <polygon id="Shape" fill="#3D7C42" fill-rule="nonzero" points="15 0 15 50 30 50"></polygon>
+                    </g>
+                    <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(240.000000, 255.000000)">
+                        <polygon id="Shape" fill="#49934E" fill-rule="nonzero" points="15 0 15 50 0 50"></polygon>
+                        <polygon id="Shape" fill="#3D7C42" fill-rule="nonzero" points="15 0 15 50 30 50"></polygon>
+                    </g>
+                    <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(270.000000, 255.000000)">
+                        <polygon id="Shape" fill="#49934E" fill-rule="nonzero" points="15 0 15 50 0 50"></polygon>
+                        <polygon id="Shape" fill="#3D7C42" fill-rule="nonzero" points="15 0 15 50 30 50"></polygon>
+                    </g>
+                    <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(300.000000, 255.000000)">
+                        <polygon id="Shape" fill="#49934E" fill-rule="nonzero" points="15 0 15 50 0 50"></polygon>
+                        <polygon id="Shape" fill="#3D7C42" fill-rule="nonzero" points="15 0 15 50 30 50"></polygon>
+                    </g>
+                    <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(330.000000, 255.000000)">
+                        <polygon id="Shape" fill="#49934E" fill-rule="nonzero" points="15 0 15 50 0 50"></polygon>
+                        <polygon id="Shape" fill="#3D7C42" fill-rule="nonzero" points="15 0 15 50 30 50"></polygon>
+                    </g>
+                    <rect id="Rectangle-path" fill="#79CA54" fill-rule="nonzero" x="100" y="300" width="350" height="10"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

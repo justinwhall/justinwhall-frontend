@@ -1,0 +1,257 @@
+$strokeColor: $lblue;
+$heartColor: $berry;
+$size: 100px; // change this to manipulate overall size
+$totalAnim: 3s;
+$delay: 0s;
+$squareLen: 240;
+$circleLen: 188.522;
+$heartLen: 308.522;
+$svgSize: 90px;
+$circleW: 60px;
+
+// mountain animation
+$red: $berry;
+$burnt-sienna: lighten($berry, 10);
+$goldenrod: lighten($berry, 20);
+$scooter: $lblue;
+$marzipan: #FCDC9F;
+$marzipan: rgb(121, 202, 84);
+$fruit-salad: #49934E;
+$goblin: #3D7C42;
+$chambray: lighten($dblue, 10);
+$port-gore: $dblue;
+$white: #ffffff;
+$silver-sand: #BBBBBB;
+
+.mountain svg
+	width: 500px;
+	height: 500px;
+	backface-visibility: hidden;
+
+
+.scene1
+	opacity: 0;
+
+	.bg
+		fill: $scooter;
+
+
+	.ground
+		fill: $marzipan;
+
+
+	.sky1
+		fill: $goldenrod;
+
+
+	.sky2
+		fill: $burnt-sienna;
+
+
+	.sky3
+		fill: $red;
+
+
+	.tree-left
+		fill: $fruit-salad;
+
+
+	.tree-right
+		fill: $goblin;
+
+
+	.mountain-left
+		fill: $chambray;
+
+
+	.mountain-right
+		fill: $port-gore;
+
+
+	.mountain-top-left
+		fill: $white;
+
+
+	.mountain-top-right
+		fill: $silver-sand;
+
+
+// heart animation
+.heart-loader
+	display: none;
+
+.intro .code.secondary
+	opacity: 0;
+	color: $dblue;
+
+.start .code
+	animation: fade-in 1s 2s forwards
+
+.start .heart-loader
+  position: relative;
+  display: block;
+  left: 50%;
+  top: 10%;
+  margin-top: $size/-1.7;
+  width: $size;
+  height: $size;
+  overflow: visible;
+
+  &__group
+    transform-origin: 0 $svgSize;
+    animation: group-anim $totalAnim $delay 1 forwards;
+
+  &__square
+    stroke: $strokeColor;
+    stroke-dasharray: $squareLen, $squareLen;
+    stroke-dashoffset: $squareLen;
+    animation: square-anim $totalAnim $delay 1;
+
+  &__circle
+    stroke: $strokeColor;
+    stroke-dasharray: $circleLen, $circleLen;
+    stroke-dashoffset: $circleLen;
+    transform-origin: $circleW $circleW/2;
+
+    &.m--left
+      animation: left-circle-anim $totalAnim $delay 1;
+
+    &.m--right
+      animation: right-circle-anim $totalAnim $delay 1;
+
+
+  &__heartPath
+    stroke: $heartColor;
+    fill: transparent;
+    stroke-dasharray: $heartLen, $heartLen;
+    stroke-dashoffset: $heartLen;
+    animation: heart-anim $totalAnim forwards;
+
+@keyframes fade-in
+	50%
+		opacity: 0.5;
+
+	100%
+		opacity: 1;
+
+@keyframes square-anim
+  12%
+    stroke-dashoffset: 0;
+
+  43%
+    stroke-dashoffset: 0;
+    opacity: 1;
+
+  85%
+    stroke-dashoffset: 0;
+    opacity: 0;
+
+  100%
+    stroke-dashoffset: 0;
+    opacity: 0;
+
+
+@keyframes left-circle-anim
+  12%
+    stroke-dashoffset: $circleLen;
+
+  31%
+    stroke-dashoffset: 0;
+    transform: translateY(0);
+
+  41%
+    stroke-dashoffset: 0;
+    transform: translateY($circleW/-2);
+
+  43%
+    stroke-dashoffset: 0;
+    transform: translateY($circleW/-2);
+    opacity: 1;
+
+  85%
+    stroke-dashoffset: 0;
+    transform: translateY($circleW/-2);
+    opacity: 0;
+
+  100%
+    stroke-dashoffset: 0;
+    transform: translateY($circleW/-2);
+    opacity: 0;
+
+
+@keyframes right-circle-anim
+  12%
+    stroke-dashoffset: $circleLen;
+
+  31%
+    stroke-dashoffset: 0;
+    transform: translateX(0);
+
+  41%
+    stroke-dashoffset: 0;
+    transform: translateX($circleW/2);
+
+  43%
+    stroke-dashoffset: 0;
+    transform: translateX($circleW/2);
+    opacity: 1;
+
+  85%
+    stroke-dashoffset: 0;
+    transform: translateX($circleW/2);
+    opacity: 0;
+
+  100%
+    stroke-dashoffset: 0;
+    transform: translateX($circleW/2);
+    opacity: 0;
+
+
+@keyframes group-anim
+  43%
+    transform: rotate(0);
+
+  54%
+    transform: rotate(-45deg);
+
+  90%
+    transform: rotate(-45deg);
+    opacity: 1;
+
+  97%
+    transform: rotate(-45deg);
+    // opacity: 0;
+
+  100%
+    transform: rotate(-45deg);
+    // opacity: 0;
+
+
+@keyframes heart-anim
+  55%
+    stroke-dashoffset: $heartLen;
+    fill: transparent;
+
+  70%
+    stroke-dashoffset: 0;
+    fill: transparent;
+
+  87%
+    stroke-dashoffset: 0;
+    fill: $heartColor;
+
+  100%
+    stroke-dashoffset: 0;
+    fill: $heartColor;
+
+
+.other
+  position: absolute;
+  left: 0;
+  bottom: 0.5rem;
+  width: 100%;
+  text-align: right;
+
+  &__link
+    font-size: 1.3rem;
+    margin: 0 1rem;

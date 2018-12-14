@@ -1,0 +1,161 @@
+#page
+	overflow-wrap: break-word;
+
+.single .entry-content
+	margin-top: $scaleup-4
+	max-width: 960px
+	margin: $scaleup-6 auto
+
+.post-link
+	padding: $scaleup-3 0
+	display: block
+	color: $dblue
+
+	&:hover
+		background: fade-out($lblue, .8)
+		color: $mblue
+
+	.entry-title
+		margin-bottom: $scale-0
+
+	.posted-on
+		color: #ccc
+		font-size: $scaleup-2
+
+	.entry-content
+		color: #333
+
+.entry-title
+	margin-bottom: 0
+	font-size: $scaleup-6
+
+.post-link:nth-child(3)
+	padding-top: $scaleup-9
+
+.page-title
+	margin-bottom: 0
+
+.nav-links
+	margin-bottom: 30px
+	display: flex
+
+	> div
+		flex-grow: 1
+
+	.nav-next
+		text-align: right
+
+.page-head
+	.entry-date
+		opacity: 0.4
+		font-size: $scaleup-2
+
+.page:not(.home) .contact-wrap
+	padding: $scaleup-8
+
+	input,
+	textarea
+		border: 1px solid #eaeaea
+
+// work template
+.page-work
+
+	.lead
+		margin: $scaleup-5 0
+		font-size: $scaleup-5
+		color: #666
+
+	.client
+		margin-top: $scaleup-5
+		margin-bottom: $scaleup-5
+
+		a
+			display: inline-block
+			background: $mblue
+			padding: $scaledown-2 $scaleup-2
+			color: #fff
+
+			&:hover
+				opacity: 0.8
+
+.error404
+
+	#page
+		background: fade-out($dblue, .1)
+		min-height: 100vh
+		color: #fff
+
+	.content-area
+		min-height: 100vh
+
+	.page-title
+		margin-bottom: $scaleup-3
+
+	.search-form
+		max-width: 700px
+		margin: 0 auto
+
+	.search-form
+		margin-top: $scaleup-2
+		display: flex
+
+		.search-submit
+			flex: 0 0 15rem
+			background: $berry
+			border-color: $berry
+
+		label
+			flex-grow: 1
+
+	#colophon
+		margin-top: -104px;
+
+.error-404
+	text-align: center
+	padding-top: 15vh
+	padding-bottom: 104px
+
+.land
+	fill: $mblue
+
+@media (min-width: 60.0rem)
+	.page-head .entry-meta
+		position: absolute
+		right: 0
+		bottom: -29px
+
+	.entry-title
+		font-size: $scaleup-8
+
+@media (max-width: 40.0rem)
+	.error404
+		#lost-puppy
+			height: 100px
+
+		.page-title
+			font-size: $scaleup-5
+
+		.nothing-found
+			font-size: $scaleup-2
+
+
+@media (max-width: 60.0rem)
+	.client
+		flex-direction: column
+
+	.client .column
+		flex: 0 0 100%
+		max-width: 100%
+		margin-bottom: $scaleup-4
+
+	.page .contact-wrap
+		padding: $scaleup-6 $scaledown-5
+
+	.error-404
+		padding-top: 10vh
+
+		.search-form
+			display: block
+
+		.search-submit
+			width: 100%;

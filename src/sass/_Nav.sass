@@ -1,0 +1,214 @@
+#masthead
+	background: $dblue
+	color: lighten($dblue, 60)
+	overflow: hidden
+
+.page-head
+	background: lighten($dblue, 8)
+	background: darken($lblue, 5)
+	// background: $lblue
+	padding: $scaleup-1 0
+	color: #fff
+	h1
+		font-size: $scaleup-6
+
+#nav
+	height: 0;
+	overflow: hidden;
+
+#nav.in
+	position: fixed
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	background: $dblue;
+	overflow: hidden;
+	z-index: 101;
+	opacity: .95;
+	text-align: center;
+	font-size: $scaleup-4;
+	align-items: center;
+	justify-content: center;
+	border: 10px solid $lblue;
+
+	ul
+		list-style: none;
+
+	a
+		color: #fff;
+		font-weight: 400;
+
+#nav-icon
+	width: 60px;
+	height: 50px;
+	position: absolute;
+	z-index: 90000
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	transform: rotate(0deg);
+	-webkit-transition: .5s ease-in-out;
+	-moz-transition: .5s ease-in-out;
+	-o-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+	cursor: pointer;
+
+#nav-icon span
+	display: block;
+	position: absolute;
+	height: 6px;
+	width: 100%;
+	background: #fff;
+	opacity: 1;
+	left: 0;
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	transform: rotate(0deg);
+	-webkit-transition: .25s ease-in-out;
+	-moz-transition: .25s ease-in-out;
+	-o-transition: .25s ease-in-out;
+	transition: .25s ease-in-out;
+
+#nav-icon span:nth-child(1)
+  top: 0px;
+
+#nav-icon span:nth-child(2),#nav-icon span:nth-child(3)
+  top: 18px;
+
+#nav-icon span:nth-child(4)
+  top: 36px;
+
+#nav-icon.fixed span:nth-child(1)
+  top: 18px;
+  width: 0%;
+  left: 50%;
+
+#nav-icon.fixed span:nth-child(2)
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+
+#nav-icon.fixed span:nth-child(3)
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+
+#nav-icon.fixed span:nth-child(4)
+  top: 18px;
+  width: 0%;
+  left: 50%;
+
+.menu-toggle
+	margin-top: 3px
+	position: absolute;
+	right: 20px;
+	z-index: 105;
+	top: 21px
+
+	&:hover
+		cursor: pointer;
+
+	.bar
+		height: 4px;
+		background: #fff;
+		margin: 10px 0;
+
+#nav-icon.fixed
+	position: fixed
+
+.head-bar
+	display: flex;
+	// padding-top: 0px
+	overflow: hidden
+
+.header-mt
+	margin-bottom: -22px
+	position: absolute
+	bottom: 9px
+
+#mt-left
+	fill: $mblue
+
+#mt-right
+	fill: lighten($dblue, 10)
+
+.header-mt svg
+	width: 65px
+	height: auto
+
+.site-branding
+	display: block
+	padding-left: $scaleup-6
+	line-height: 1.2
+	font-size: $scaleup-4
+	padding: $scaleup-1 0
+
+	.site-title
+		display: block
+
+	.title
+		margin-left: 70px
+
+
+	.divider
+		display: none
+
+	a
+		color: darken($lblue, 5)
+
+		&:hover
+			color: $lblue
+
+	.name-wrap
+		margin-top: auto
+
+.crumbs
+	font-size: $scaleup-1
+	color: #ccc
+	background: fade-out($lblue, .9)
+
+	.sep
+		margin: 0 $scaledown-2
+
+	a
+		color: #ccc
+		font-weight: 400
+
+		&:hover
+			color: $dblue
+
+@media (max-width: 50.0rem)
+	.site-branding .title
+		font-size: $scaleup-1
+
+@media (min-width: 50.0rem)
+	.header-mt
+		svg
+			width: 120px
+
+	.site-branding
+		display: flex
+		padding: 1.6rem 0
+		font-size: $scaleup-5
+		padding-top: 3.7rem
+		padding-bottom: 0
+		margin-bottom: -10px
+		padding-left: 10rem
+
+		.title
+			margin-left: 0
+
+		.site-title
+			display: inline
+
+		.divider
+			display: inline
+
+
+@media (min-width: 70.0rem)
+
+	#nav.in
+		font-size: $scaleup-7
