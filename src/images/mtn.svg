@@ -1,68 +1,66 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <defs>
-        <circle id="path-1" cx="100" cy="100" r="100"></circle>
-        <rect id="path-3" x="0" y="0" width="400" height="260"></rect>
-    </defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="saved0">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <g id="Oval"></g>
-            <g id="Group" mask="url(#mask-2)">
-                <g transform="translate(-150.000000, -150.000000)">
-                    <rect id="Rectangle-path" fill="#93CEF5" fill-rule="nonzero" x="0" y="0" width="500" height="500"></rect>
-                    <g id="Clipped" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(50.000000, 50.000000)">
-                        <mask id="mask-4" fill="white">
-                            <use xlink:href="#path-3"></use>
-                        </mask>
-                        <g id="Rectangle-path"></g>
-                        <g id="Group" mask="url(#mask-4)">
-                            <g transform="translate(0.000000, 80.000000)">
-                                <rect id="Rectangle-path" fill="#E63946" fill-rule="nonzero" x="0" y="0" width="350" height="70"></rect>
-                                <rect id="Rectangle-path" fill="#EC6670" fill-rule="nonzero" x="0" y="70" width="350" height="50"></rect>
-                                <rect id="Rectangle-path" fill="#F1949B" fill-rule="nonzero" x="0" y="120" width="350" height="50"></rect>
-                                <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(100.000000, 55.000000)">
-                                    <polygon id="Shape" fill="#2A4C7D" fill-rule="nonzero" points="100 0 100 120 0 120"></polygon>
-                                    <polygon id="Shape" fill="#1D3557" fill-rule="nonzero" points="100 0 200 120 100 120"></polygon>
-                                    <polygon id="Shape" fill="#FFFFFF" fill-rule="nonzero" points="100 0 100 30 75 30"></polygon>
-                                    <polygon id="Shape" fill="#BBBBBB" fill-rule="nonzero" points="100 0 125 30 100 30"></polygon>
-                                </g>
-                            </g>
-                        </g>
-                    </g>
-                    <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(150.000000, 255.000000)">
-                        <polygon id="Shape" fill="#49934E" fill-rule="nonzero" points="15 0 15 50 0 50"></polygon>
-                        <polygon id="Shape" fill="#3D7C42" fill-rule="nonzero" points="15 0 15 50 30 50"></polygon>
-                    </g>
-                    <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(180.000000, 255.000000)">
-                        <polygon id="Shape" fill="#49934E" fill-rule="nonzero" points="15 0 15 50 0 50"></polygon>
-                        <polygon id="Shape" fill="#3D7C42" fill-rule="nonzero" points="15 0 15 50 30 50"></polygon>
-                    </g>
-                    <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(210.000000, 255.000000)">
-                        <polygon id="Shape" fill="#49934E" fill-rule="nonzero" points="15 0 15 50 0 50"></polygon>
-                        <polygon id="Shape" fill="#3D7C42" fill-rule="nonzero" points="15 0 15 50 30 50"></polygon>
-                    </g>
-                    <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(240.000000, 255.000000)">
-                        <polygon id="Shape" fill="#49934E" fill-rule="nonzero" points="15 0 15 50 0 50"></polygon>
-                        <polygon id="Shape" fill="#3D7C42" fill-rule="nonzero" points="15 0 15 50 30 50"></polygon>
-                    </g>
-                    <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(270.000000, 255.000000)">
-                        <polygon id="Shape" fill="#49934E" fill-rule="nonzero" points="15 0 15 50 0 50"></polygon>
-                        <polygon id="Shape" fill="#3D7C42" fill-rule="nonzero" points="15 0 15 50 30 50"></polygon>
-                    </g>
-                    <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(300.000000, 255.000000)">
-                        <polygon id="Shape" fill="#49934E" fill-rule="nonzero" points="15 0 15 50 0 50"></polygon>
-                        <polygon id="Shape" fill="#3D7C42" fill-rule="nonzero" points="15 0 15 50 30 50"></polygon>
-                    </g>
-                    <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(330.000000, 255.000000)">
-                        <polygon id="Shape" fill="#49934E" fill-rule="nonzero" points="15 0 15 50 0 50"></polygon>
-                        <polygon id="Shape" fill="#3D7C42" fill-rule="nonzero" points="15 0 15 50 30 50"></polygon>
-                    </g>
-                    <rect id="Rectangle-path" fill="#79CA54" fill-rule="nonzero" x="100" y="300" width="350" height="10"></rect>
-                </g>
-            </g>
-        </g>
-    </g>
-</svg>
+<svg viewBox="0 0 500 500">
+						<g class="scene1" style="opacity: 1;">
+							<defs>
+								<clipPath id="circle">
+									<circle class="mask" cx="250" cy="250" r="100"></circle>
+								</clipPath>
+								<clipPath id="ground">
+									<rect x="50" y="50" width="400" height="260"></rect>
+								</clipPath>
+							</defs>
+
+							<g clip-path="url(#circle)">
+								<rect class="bg" x="0" y="0" width="500" height="500"></rect>
+
+								<g clip-path="url(#ground)">
+									<rect class="sky3" x="50" y="130" width="350" height="70" data-svg-origin="225 200" transform="matrix(1,0,0,1,0,0)" style="visibility: inherit; opacity: 1;"></rect>
+									<rect class="sky2" x="50" y="200" width="350" height="50" data-svg-origin="225 250" transform="matrix(1,0,0,1,0,0)" style="visibility: inherit; opacity: 1;"></rect>
+									<rect class="sky1" x="50" y="250" width="350" height="50" data-svg-origin="225 300" transform="matrix(1,0,0,1,0,0)" style="visibility: inherit; opacity: 1;"></rect>
+
+									<g class="mountain" transform="matrix(1,0,0,1,150,185)" data-svg-origin="100 120" style="">
+										<polygon class="mountain-left" points="100,0 100,120 0,120"></polygon>
+										<polygon class="mountain-right" points="100,0 200,120 100,120"></polygon>
+										<polygon class="mountain-top-left" points="100,0 100,30 75,30"></polygon>
+										<polygon class="mountain-top-right" points="100,0 125,30 100,30"></polygon>
+									</g>
+								</g>
+
+								<g class="tree tree1" transform="matrix(1,0,0,1,150,255)" data-svg-origin="15 50" style="">
+									<polygon class="tree-left" points="15,0 15,50 0,50"></polygon>
+									<polygon class="tree-right" points="15,0 15,50 30,50"></polygon>
+								</g>
+
+								<g class="tree tree2" transform="matrix(1,0,0,1,180,255)" data-svg-origin="15 50" style="">
+									<polygon class="tree-left" points="15,0 15,50 0,50"></polygon>
+									<polygon class="tree-right" points="15,0 15,50 30,50"></polygon>
+								</g>
+
+								<g class="tree tree3" transform="matrix(1,0,0,1,210,255)" data-svg-origin="15 50" style="">
+									<polygon class="tree-left" points="15,0 15,50 0,50"></polygon>
+									<polygon class="tree-right" points="15,0 15,50 30,50"></polygon>
+								</g>
+
+								<g class="tree tree4" transform="matrix(1,0,0,1,240,255)" data-svg-origin="15 50" style="">
+									<polygon class="tree-left" points="15,0 15,50 0,50"></polygon>
+									<polygon class="tree-right" points="15,0 15,50 30,50"></polygon>
+								</g>
+
+								<g class="tree tree5" transform="matrix(1,0,0,1,270,255)" data-svg-origin="15 50" style="">
+									<polygon class="tree-left" points="15,0 15,50 0,50"></polygon>
+									<polygon class="tree-right" points="15,0 15,50 30,50"></polygon>
+								</g>
+
+								<g class="tree tree6" transform="matrix(1,0,0,1,300,255)" data-svg-origin="15 50" style="">
+									<polygon class="tree-left" points="15,0 15,50 0,50"></polygon>
+									<polygon class="tree-right" points="15,0 15,50 30,50"></polygon>
+								</g>
+
+								<g class="tree tree7" transform="matrix(1,0,0,1,330,255)" data-svg-origin="15 50" style="">
+									<polygon class="tree-left" points="15,0 15,50 0,50"></polygon>
+									<polygon class="tree-right" points="15,0 15,50 30,50"></polygon>
+								</g>
+
+								<rect class="ground" x="100" y="300" width="350" height="10" data-svg-origin="100 305" transform="matrix(1,0,0,1,0,0)" style="visibility: inherit; opacity: 1;"></rect>
+							</g>
+						</g>
+					</svg>
