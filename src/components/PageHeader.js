@@ -1,11 +1,18 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
-const PageHeader = ({ title, breadCrumbs }) => (
+const PageHeader = ({ title, breadCrumbs, date = false }) => (
   <React.Fragment>
     <header className="page-head">
       <div className="container">
         <h1 className="page-title">{title}</h1>
+        {date && (
+        <div className="entry-meta">
+          <span className="posted-on">
+            <time className="entry-date published updated">{date}</time>
+          </span>
+        </div>
+        )}
       </div>
     </header>
     <div className="crumbs">

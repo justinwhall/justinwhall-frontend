@@ -1,4 +1,5 @@
 import React from 'react';
+import ContactForm from '../components/ContactForm';
 import Layout from '../components/Layout';
 
 const breadCrumbs = [
@@ -11,7 +12,7 @@ const breadCrumbs = [
 const Contact = () => (
   <Layout title="Contact" breadCrumbs={breadCrumbs}>
     <div>
-      <h1>contact</h1>
+      <ContactForm />
     </div>
   </Layout>
 )

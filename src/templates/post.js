@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-import { graphql, Link } from 'gatsby'
+import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 
 export const BlogPostTemplate = ({
@@ -37,7 +37,7 @@ const BlogPost = ({ data }) => {
   ]
 
   return (
-    <Layout breadCrumbs={breadCrumbs} title={post.title}>
+    <Layout breadCrumbs={breadCrumbs} title={post.title} date={post.date}>
       <Helmet title={`${post.title} | Blog`} />
       <BlogPostTemplate
         content={post.content}
