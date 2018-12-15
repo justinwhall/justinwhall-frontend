@@ -6,10 +6,7 @@ import Layout from '../components/Layout'
 
 export const BlogPostTemplate = ({
   content,
-  categories,
   title,
-  date,
-  author,
 }) => (
   <section className="section single">
     <div className="container content">
