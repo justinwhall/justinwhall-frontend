@@ -8,7 +8,7 @@ import '../sass/milligram.sass';
 
 const TemplateWrapper = ({ children, title, breadCrumbs, date }) => (
   <div>
-    <Helmet title="Home | Gatsby + WordPress" />
+    <Helmet title={`${title} | Denver & Boulder Colorado WordPress Developer & Designer`} />
     <Navbar />
     <PageHeader title={title} breadCrumbs={breadCrumbs} date={date} />
     <div>{children}</div>

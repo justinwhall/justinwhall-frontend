@@ -1,4 +1,5 @@
 import React from 'react';
+import Helmet from 'react-helmet';
 import {Elastic, TimelineMax} from "gsap/all";
 import MenuOverlay from '../components/MenuOverlay';
 import Social from '../components/Social';
@@ -96,6 +97,7 @@ export default class Home extends React.Component {
   render() {
     return (
       <React.Fragment>
+        <Helmet title="Justin W Hall | Denver & Boulder Colorado WordPress Developer & Designer" />
         <MenuOverlay />
         <main>
           <div className="intro">
