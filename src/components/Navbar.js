@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, StaticQuery, graphql } from 'gatsby'
+import { Link } from 'gatsby'
 import Logo from '../images/mtns.svg'
 
 const Navbar = () => (
@@ -11,13 +11,13 @@ const Navbar = () => (
         </div>
         <div className="site-branding">
           <div className="name-wrap">
-            <a href="/">
+            <Link to="/">
               <span className="site-title name">Justin W. Hall</span>
               {' '}
               <span className="divider">/</span>
               {' '}
               <span className="site-title title">Web Developer</span>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

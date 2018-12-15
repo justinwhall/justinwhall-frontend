@@ -5,21 +5,30 @@ import Layout from '../components/Layout'
 import PostList from '../components/PostList'
 import Pagination from '../components/Pagination'
 
-export default class IndexPage extends React.Component {
+const breadCrumbs = [
+  {
+  text: 'Blog',
+  link: false,
+  }
+]
+
+export default class Blog extends React.Component {
   render() {
     const { data, pageContext } = this.props
     const { edges: posts } = data.allWordpressPost
 
     return (
-      <Layout>
+      <Layout title="Blog" breadCrumbs={breadCrumbs}>
         <PostList posts={posts} title="Latest posts" />
-        <Pagination pageContext={pageContext} pathPrefix="/" />
+        <div className="container">
+          <Pagination pageContext={pageContext} pathPrefix="/" />
+        </div>
       </Layout>
     )
   }
 }
 
-IndexPage.propTypes = {
+Blog.propTypes = {
   data: PropTypes.shape({
     allWordpressPost: PropTypes.shape({
       edges: PropTypes.array,

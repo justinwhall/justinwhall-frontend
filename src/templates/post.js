@@ -7,41 +7,15 @@ import Layout from '../components/Layout'
 export const BlogPostTemplate = ({
   content,
   categories,
-  tags,
   title,
   date,
   author,
 }) => (
-  <section className="section">
+  <section className="section single">
     <div className="container content">
-      <div className="columns">
-        <div className="column is-10 is-offset-1">
-          <h1 dangerouslySetInnerHTML={{ __html: title }} className="title is-size-2 has-text-weight-bold is-bold-light" />
-          <div dangerouslySetInnerHTML={{ __html: content }} />
-          <div style={{ marginTop: `4rem` }}>
-            <p>
-              {date}
-              {' '}
-              - posted by
-              {' '}
-              <Link to={`/author/${author.slug}`}>{author.name}</Link>
-            </p>
-            {categories && categories.length ? (
-              <div>
-                <h4>Categories</h4>
-                <ul className="taglist">
-                  {categories.map(category => (
-                    <li key={`${category.slug}cat`}>
-                      <Link to={`/categories/${category.slug}/`}>
-                        {category.name}
-                      </Link>
-                    </li>
-                    ))}
-                </ul>
-              </div>
-              ) : null}
-          </div>
-        </div>
+      <div className="entry-content">
+        <h1 dangerouslySetInnerHTML={{ __html: title }} />
+        <div dangerouslySetInnerHTML={{ __html: content }} />
       </div>
     </div>
   </section>
@@ -54,9 +28,19 @@ BlogPostTemplate.propTypes = {
 
 const BlogPost = ({ data }) => {
   const { wordpressPost: post } = data
+  const breadCrumbs = [
+    {
+      text: 'Blog',
+      link: '/web-development-blog/',
+    },
+    {
+      text: post.title,
+      link: false,
+    }
+  ]
 
   return (
-    <Layout>
+    <Layout breadCrumbs={breadCrumbs} title={post.title}>
       <Helmet title={`${post.title} | Blog`} />
       <BlogPostTemplate
         content={post.content}

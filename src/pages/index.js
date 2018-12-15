@@ -1,5 +1,6 @@
 import React from 'react';
 import {Elastic, TimelineMax} from "gsap/all";
+import MenuOverlay from '../components/MenuOverlay';
 import Social from '../components/Social';
 import Faqs from '../components/Faqs';
 import ContactForm from '../components/ContactForm';
@@ -95,6 +96,7 @@ export default class Home extends React.Component {
   render() {
     return (
       <React.Fragment>
+        <MenuOverlay />
         <main>
           <div className="intro">
             <div className="hello">
