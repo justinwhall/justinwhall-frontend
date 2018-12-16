@@ -1,5 +1,5 @@
 <svg viewBox="0 0 500 500">
-						<g class="scene1" style="opacity: 1;">
+						<g class="scene1">
 							<defs>
 								<clipPath id="circle">
 									<circle class="mask" cx="250" cy="250" r="100"></circle>

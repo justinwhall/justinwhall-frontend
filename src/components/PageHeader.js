@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
-const PageHeader = ({ title, breadCrumbs, date = false }) => (
+const PageHeader = ({ title = false, breadCrumbs = false, date = false }) => (
   <React.Fragment>
     <header className="page-head">
       <div className="container">
-        <h1 className="page-title">{title}</h1>
+        {title && <h1 className="page-title">{title}</h1> }
         {date && (
         <div className="entry-meta">
           <span className="posted-on">
@@ -15,6 +15,7 @@ const PageHeader = ({ title, breadCrumbs, date = false }) => (
         )}
       </div>
     </header>
+    {breadCrumbs && (
     <div className="crumbs">
       <div className="container">
         <nav className="breadcrumbs">
@@ -33,6 +34,7 @@ const PageHeader = ({ title, breadCrumbs, date = false }) => (
         </nav>
       </div>
     </div>
+    )}
   </React.Fragment>
 );
 
