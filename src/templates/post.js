@@ -46,7 +46,7 @@ const BlogPost = ({ data }) => {
 
   return (
     <Layout breadCrumbs={breadCrumbs} title={post.title} date={post.date}>
-      <Helmet title={`${post.title} | Blog`} />
+      <Helmet title={`${post.title} | Justin W. Hall`} />
       <BlogPostTemplate
         content={post.content}
         categories={post.categories}
