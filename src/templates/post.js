@@ -1,8 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import { DiscussionEmbed } from "disqus-react";
 import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
+
 
 export const BlogPostTemplate = ({
   content,
@@ -24,7 +26,13 @@ BlogPostTemplate.propTypes = {
 }
 
 const BlogPost = ({ data }) => {
-  const { wordpressPost: post } = data
+  const { wordpressPost: post } = data;
+  const disqusShortname = "justinwhall";
+  const disqusConfig = {
+    identifier: post.title.toLowerCase(),
+    title: post.title.toLowerCase(),
+  };
+
   const breadCrumbs = [
     {
       text: 'Blog',
@@ -47,6 +55,11 @@ const BlogPost = ({ data }) => {
         date={post.date}
         author={post.author}
       />
+      <div className="disqus-wrap">
+        <div className="container container-disqus">
+          <DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />
+        </div>
+      </div>
     </Layout>
   )
 }
