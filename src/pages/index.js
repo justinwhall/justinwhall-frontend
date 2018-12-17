@@ -81,7 +81,7 @@ export default class Home extends React.Component {
                 {`,`}
                 <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/p/BPjVFP0lSq7/?taken-by=justinwindhall">skier</a>
                 {'and '}
-                <a target="_blank" rel="noopener noreferrer" href="https://www.porchdrinking.com/wp-content/uploads/2016/09/how-to-enjoy-pumpkin-beer.jpg">opinionated beer drinker</a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.porchdrinking.com/wp-content/uploads/2016/09/how-to-enjoy-pumpkin-beer.jpg"> opinionated beer drinker</a>
                 {'. I also share a birthday with '}
                 <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/p/Ba9ypNrDD0J/?taken-by=justinwindhall">my sister</a>
                 {`.`}
