@@ -12,4 +12,5 @@ deploy:
   skip_cleanup: true
   acl: public_read
   local_dir: public
+after_deploy:
   - travis-ci-cloudfront-invalidation -a $AWS_KEY -s $AWS_SECRET -c $AWS_CLOUDFRONT_DIST_ID -i '/*' -b $TRAVIS_BRANCH -p $TRAVIS_PULL_REQUEST
