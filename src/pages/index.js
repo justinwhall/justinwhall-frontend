@@ -60,7 +60,7 @@ export default class Home extends React.Component {
           </div>
           <div ref={more => this.more = more} className="more-about p-top-bottom">
             <div className="container">
-              <h2>Modern WordPress &amp; Software</h2>
+              <h2>Modern Websites &amp; Software</h2>
               <p>
                 {`I'm a Senior Web Developer at `}
                 <a target="_blank" rel="noopener noreferrer" href="https://sendgrid.com">SendGrid</a>
