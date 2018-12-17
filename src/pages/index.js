@@ -60,7 +60,7 @@ export default class Home extends React.Component {
           </div>
           <div ref={more => this.more = more} className="more-about p-top-bottom">
             <div className="container">
-              <h2>Modern WordPress Websites &amp; Software</h2>
+              <h2>Modern WordPress &amp; Software</h2>
               <p>
                 {`I'm a Senior Web Developer at `}
                 <a target="_blank" rel="noopener noreferrer" href="https://sendgrid.com">SendGrid</a>
@@ -68,8 +68,7 @@ export default class Home extends React.Component {
                 <a target="_blank" rel="noopener noreferrer" href="https://www.justinwhall.com/">freelancer</a>
                 {', and '}
                 <a target="_blank" rel="noopener noreferrer" href="https://www.littlebot.io">plugin developer</a>
-                {`. I believe effective websites should be lightning fast, provide a great experience for the user, and elegantly project your brand without being too clever. Solving real-world problems with software is my favorite part of my job. It's not only challenging but exceedingly rewarding. I love what I do.
- `}
+                {`. I'm especially interested in headless CMS space, serverless and WordPress. Solving real-world problems with software is my favorite part of my job. It's not only challenging but exceedingly rewarding. I love what I do.`}
               </p>
               <p>
                 {'Offline, I live just outside of Denver, CO in '}

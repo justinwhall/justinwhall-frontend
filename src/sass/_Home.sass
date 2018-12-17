@@ -120,9 +120,14 @@
 		background: $dblue;
 		color: lighten($dblue, 19);
 
+.questions
+	display: flex;
+	flex-wrap: wrap;
+
 .single-faq
 	overflow: hidden;
 	margin-bottom: $scaleup-4
+	flex: 0 0 50%;
 
 	.question
 		margin-bottom: 0
@@ -135,9 +140,10 @@
 	.answer
 		max-height: 0;
 		transition: all 200ms;
-		color: #666
+		color: #666;
+		overflow: hidden;
 
-	.answer.in
+.single-faq.in .answer
 		max-height: 450px;
 
 .get-in-touch
