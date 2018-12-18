@@ -15,7 +15,7 @@ const jobs = [
     title: "Senior Web Developer",
     location: "Denver, CO",
     time: "July 2017 - Present",
-    desc: "As the Senior Web Developer at SendGrid I am responsible for technical decision making and developermnet of SendGrid's public facing web presense which include SendGrid.com and the documentation site located at SendGrid.com/docs. I work with a variety of teams including DX (technical writers), pricing, UIUX researchers, marketing, Product and Engineering. I colloborate with marketing to A/B test, pass various events to our Google Analytics datalayer, Segments.io and Optimizely. I also work closely with the Customer Growth Engineering team to colaborate on the hand off from pricing to signup.",
+    desc: "As the Senior Web Developer at SendGrid I am responsible for technical decision making and development of SendGrid's public facing web presence including SendGrid.com and the documentation site located at SendGrid.com/docs. I work with a variety of teams including DX (technical writers), Pricing, UIUX researchers, Marketing, Product and Engineering. I collaborate with marketing to A/B test, pass various events to our Google Analytics datalayer, Segments.io and Optimizely. I also work closely with the Customer Growth Engineering team to collaborate on the hand off from pricing to signup.",
     link: "https://sendgrid.com",
   },
   {
@@ -23,7 +23,7 @@ const jobs = [
     title: "Senior Web Developer",
     location: "Distributed & Denver, CO",
     time: "November 2012 - June 2017",
-    desc: "GDW is a hybrid SaSS / marketing company. Their software is a multi-tenant application built for healthcare providers to adminster their web presense and automate marketing services. I was the senior and lead front end developer on a small Engineering team. My main responsabilty was the development of both the public and authenticated front end.",
+    desc: "GDW is a hybrid SaSS/marketing company. Their software is a multi-tenant application built for healthcare providers to administer their web presence and automate marketing services. I was the senior and lead front end developer on a small engineering team. My main responsibilty was the development of both the public and authenticated front end.",
     link: "https://greatdentalwebsites.com",
   },
   {
@@ -31,7 +31,7 @@ const jobs = [
     location: "Denver, CO",
     title: "Owner, Operator & Janitor",
     time: "March 2008 - Present",
-    desc: "My personal freelance LLC. At times, it was my main source of income. Projects range from direct to customer to contract work for agencies.",
+    desc: "My personal freelance LLC. At times, it was my primary source of income. Clients include direct-to-customer and agency contract work. Projects vary, but involve everything from website builds, maintenance & hosting to development support",
     link: "https://justinwhall.com",
   },
   {
@@ -39,11 +39,11 @@ const jobs = [
     location: "Portland, ME",
     title: "Production Designer",
     time: "June 2003 - March 2008",
-    desc: "Now defunct, Howell Ltd provided a number of marketing services. I was on the prodcution team. As a junior employee, my responsabilites ranged from preparing and editing images within the Adobe Creative suite for print and web, basic html and even more basic actionscript.",
+    desc: "Now defunct, Howell Ltd provided a number of marketing services. I was on the production team. As a junior employee, my responsibilites ranged from preparing and editing images within the Adobe Creative Suite for print and web, basic HTML and even more basic actionscript.",
     link: null,
   },
   {
-    workplace: "State Fish Peir",
+    workplace: "State Fish Pier",
     location: "Gloucester, MA",
     title: "Chief Fish Chucker",
     time: "June 2001 - June 2003",
@@ -74,7 +74,7 @@ const Resume = () => (
         <div className="contact">720.360.7878 • justinwhall@me.com • https://justinwhall.com</div>
       </div>
       <h2>Education</h2>
-      <div>University of Maine | Mathmatics &amp; Communications</div>
+      <div>University of Maine | Mathematics &amp; Communications</div>
       <h2>Experience</h2>
       {jobs.map(job => (
         <div className="job row">
