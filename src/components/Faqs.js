@@ -7,7 +7,7 @@ const questions = [
   },
   {
     question: 'Can your provide hosting?',
-    answer: 'yes, absolutly. I have a lot of experience with WordPress Hosting and would be happy to provide a number of different options.'
+    answer: 'Yes, absolutly. I have a lot of experience with WordPress Hosting and would be happy to provide a number of different options.'
   },
   {
     question: 'Do you only work with WordPress?',

@@ -63,10 +63,9 @@ export default class Home extends React.Component {
               <h2>Modern Websites &amp; Software</h2>
               <p>
                 {`I'm a Senior Web Developer at `}
-                <a target="_blank" rel="noopener noreferrer" href="https://sendgrid.com">SendGrid</a>
-                {', '}
-                <a target="_blank" rel="noopener noreferrer" href="https://www.justinwhall.com/">freelancer</a>
-                {', and '}
+                <a target="_blank" rel="noopener noreferrer" href="https://sendgrid.com">SendGrid,</a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.justinwhall.com/"> freelancer, </a>
+                {'and '}
                 <a target="_blank" rel="noopener noreferrer" href="https://www.littlebot.io">plugin developer</a>
                 {`. I'm especially interested in the headless CMS space, serverless and WordPress. `}
                 <a target="_blank" rel="noopener noreferrer" href="https://github.com/justinwhall/justinwhall-frontend">This website </a> {`was built with WordPress + Gatsby + AWS. ❤️`}
@@ -78,14 +77,12 @@ export default class Home extends React.Component {
                 {'Offline, I live just outside of Denver, CO in '}
                 <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/p/BWjcatODFID/?taken-by=justinwindhall">Golden</a>
                 {`. I'm an `}
-                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/p/BCEyvSjDgj-/?taken-by=justinwindhall">avid mountain biker</a>
-                {`,`}
+                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/p/BCEyvSjDgj-/?taken-by=justinwindhall">avid mountain biker, </a>
                 <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/p/BPjVFP0lSq7/?taken-by=justinwindhall">skier</a>
-                {'and '}
+                {' and '}
                 <a target="_blank" rel="noopener noreferrer" href="https://www.porchdrinking.com/wp-content/uploads/2016/09/how-to-enjoy-pumpkin-beer.jpg"> opinionated beer drinker</a>
                 {'. I also share a birthday with '}
-                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/p/Ba9ypNrDD0J/?taken-by=justinwindhall">my sister</a>
-                {`.`}
+                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/p/Ba9ypNrDD0J/?taken-by=justinwindhall">my sister</a>.
               </p>
             </div>
           </div>
