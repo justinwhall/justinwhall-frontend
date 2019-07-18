@@ -92,11 +92,11 @@ export default class Home extends React.Component {
             <div className="container">
               <h2>Modern Websites &amp; Software</h2>
               <p>
-                {`I'm a senior web developer at `}
+                {`I'm a Senior Developer at `}
                 <a target="_blank" rel="noopener noreferrer" href="https://sendgrid.com">SendGrid,</a>
-                <a target="_blank" rel="noopener noreferrer" href="https://www.justinwhall.com/"> freelancer, </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.justinwhall.com/"> Freelancer, </a>
                 {'and '}
-                <a target="_blank" rel="noopener noreferrer" href="https://www.littlebot.io">plugin developer</a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.littlebot.io">Plugin Developer</a>
                 {`. I'm especially interested in the headless CMS space, serverless, Gatsby and WordPress. `}
                 <a target="_blank" rel="noopener noreferrer" href="https://github.com/justinwhall/justinwhall-frontend">This website </a> {`was built with WordPress + Gatsby + AWS. ❤️`}
               </p>
