@@ -67,7 +67,7 @@ export default class Home extends React.Component {
                 <a target="_blank" rel="noopener noreferrer" href="https://www.justinwhall.com/"> freelancer, </a>
                 {'and '}
                 <a target="_blank" rel="noopener noreferrer" href="https://www.littlebot.io">plugin developer</a>
-                {`. I'm especially interested in the headless CMS space, serverless and WordPress. `}
+                {`. I'm especially interested in the headless CMS space, serverless, Gatsby and WordPress. `}
                 <a target="_blank" rel="noopener noreferrer" href="https://github.com/justinwhall/justinwhall-frontend">This website </a> {`was built with WordPress + Gatsby + AWS. ❤️`}
               </p>
               <p>

@@ -15,7 +15,7 @@ const jobs = [
     title: "Senior Web Developer",
     location: "Denver, CO",
     time: "July 2017 - Present",
-    desc: "As the Senior Web Developer at SendGrid, I am responsible for technical decision making and development of SendGrid's public facing web presence. Assets include SendGrid.com, SendGrid.com/docs, an internal employee intranet and external LMS. I work with a variety of teams including DX (technical writers & developer evangelists), Pricing, UIUX, Marketing, Product and Engineering. Additionally, I had the opportunity to work with the design systems team, contribute to our styleguide and React based UI component library. Both assets are shared across all SendGrid development teams.",
+    desc: "As the Senior Web Developer at SendGrid, I am responsible for technical decision making and development of SendGrid's public facing web presence. Assets include SendGrid.com, SendGrid.com/docs, an internal employee intranet and external LMS. I work with a variety of teams including DX (technical writers & developer evangelists), Pricing, UIUX, Marketing, Product and Engineering. Additionally, I’ve worked with the design systems team, contribute to our styleguide and React based UI component library. Both assets are shared across all SendGrid development teams.",
     link: "https://sendgrid.com",
   },
   {
