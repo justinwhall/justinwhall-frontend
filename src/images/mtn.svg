@@ -1,0 +1,66 @@
+<svg viewBox="0 0 500 500">
+						<g class="scene1">
+							<defs>
+								<clipPath id="circle">
+									<circle class="mask" cx="250" cy="250" r="100"></circle>
+								</clipPath>
+								<clipPath id="ground">
+									<rect x="50" y="50" width="400" height="260"></rect>
+								</clipPath>
+							</defs>
+
+							<g clip-path="url(#circle)">
+								<rect class="bg" x="0" y="0" width="500" height="500"></rect>
+
+								<g clip-path="url(#ground)">
+									<rect class="sky3" x="50" y="130" width="350" height="70" data-svg-origin="225 200" transform="matrix(1,0,0,1,0,0)" style="visibility: inherit; opacity: 1;"></rect>
+									<rect class="sky2" x="50" y="200" width="350" height="50" data-svg-origin="225 250" transform="matrix(1,0,0,1,0,0)" style="visibility: inherit; opacity: 1;"></rect>
+									<rect class="sky1" x="50" y="250" width="350" height="50" data-svg-origin="225 300" transform="matrix(1,0,0,1,0,0)" style="visibility: inherit; opacity: 1;"></rect>
+
+									<g class="mountain" transform="matrix(1,0,0,1,150,185)" data-svg-origin="100 120" style="">
+										<polygon class="mountain-left" points="100,0 100,120 0,120"></polygon>
+										<polygon class="mountain-right" points="100,0 200,120 100,120"></polygon>
+										<polygon class="mountain-top-left" points="100,0 100,30 75,30"></polygon>
+										<polygon class="mountain-top-right" points="100,0 125,30 100,30"></polygon>
+									</g>
+								</g>
+
+								<g class="tree tree1" transform="matrix(1,0,0,1,150,255)" data-svg-origin="15 50" style="">
+									<polygon class="tree-left" points="15,0 15,50 0,50"></polygon>
+									<polygon class="tree-right" points="15,0 15,50 30,50"></polygon>
+								</g>
+
+								<g class="tree tree2" transform="matrix(1,0,0,1,180,255)" data-svg-origin="15 50" style="">
+									<polygon class="tree-left" points="15,0 15,50 0,50"></polygon>
+									<polygon class="tree-right" points="15,0 15,50 30,50"></polygon>
+								</g>
+
+								<g class="tree tree3" transform="matrix(1,0,0,1,210,255)" data-svg-origin="15 50" style="">
+									<polygon class="tree-left" points="15,0 15,50 0,50"></polygon>
+									<polygon class="tree-right" points="15,0 15,50 30,50"></polygon>
+								</g>
+
+								<g class="tree tree4" transform="matrix(1,0,0,1,240,255)" data-svg-origin="15 50" style="">
+									<polygon class="tree-left" points="15,0 15,50 0,50"></polygon>
+									<polygon class="tree-right" points="15,0 15,50 30,50"></polygon>
+								</g>
+
+								<g class="tree tree5" transform="matrix(1,0,0,1,270,255)" data-svg-origin="15 50" style="">
+									<polygon class="tree-left" points="15,0 15,50 0,50"></polygon>
+									<polygon class="tree-right" points="15,0 15,50 30,50"></polygon>
+								</g>
+
+								<g class="tree tree6" transform="matrix(1,0,0,1,300,255)" data-svg-origin="15 50" style="">
+									<polygon class="tree-left" points="15,0 15,50 0,50"></polygon>
+									<polygon class="tree-right" points="15,0 15,50 30,50"></polygon>
+								</g>
+
+								<g class="tree tree7" transform="matrix(1,0,0,1,330,255)" data-svg-origin="15 50" style="">
+									<polygon class="tree-left" points="15,0 15,50 0,50"></polygon>
+									<polygon class="tree-right" points="15,0 15,50 30,50"></polygon>
+								</g>
+
+								<rect class="ground" x="100" y="300" width="350" height="10" data-svg-origin="100 305" transform="matrix(1,0,0,1,0,0)" style="visibility: inherit; opacity: 1;"></rect>
+							</g>
+						</g>
+					</svg>

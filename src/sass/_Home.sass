@@ -1,0 +1,193 @@
+.intro
+	background: $dblue;
+	overflow: hidden;
+	height: 100vh;
+	text-align: center;
+	position: relative
+	min-height: 710px
+
+	.secondary
+		color: lighten($mblue, 10);
+		z-index: 100;
+		position: relative;
+		font-size: $scaleup-3;
+
+.heart,
+.mountain,
+.hello
+	color: #fff;
+	position: relative;
+	text-align: center;
+
+	.hi
+		font-size: $scaleup-7;
+
+	.my-name
+		font-size: $scaleup-5;
+
+.hello
+	margin-top: 10vh;
+	padding: 0 $scaleup-1;
+
+.mountain
+	margin-top: -120px;
+	margin-bottom: -80px;
+	min-height: 500px;
+	transition: margin 300ms ease;
+
+	svg
+		position: absolute
+		left: 50%;
+		margin-left: -250px;
+
+.heart
+	display: none;
+
+.see-more
+	display: none;
+	color: $mblue;
+	position: absolute;
+	bottom: -20px;
+	margin-top: -35px;
+	height: 72px;
+	width: 100%;
+	animation: 300ms ease-in 4.5s 1 forwards arrow;
+
+.arrow
+	width: 30px;
+	height: 32px;
+	position: absolute;
+	left: 50%;
+	margin-left: -15px;
+
+	&:hover
+		cursor: pointer;
+		path
+			stroke: $lblue;
+
+@keyframes arrow
+
+	100%
+		bottom: -30px;
+
+@keyframes arrowpath
+	0%
+		opacity: 0
+	100%
+		opacity: 1;
+
+
+.arrow path
+	stroke: $mblue;
+	fill: transparent;
+	stroke-width: 3px;
+	opacity: 0;
+	animation: 200ms ease-in 4.5s 1 forwards arrowpath;
+
+.social-media
+	display: flex;
+
+	.column
+		flex-grow: 1;
+		padding: $scaleup-8 $scaleup-4 0 $scaleup-4;
+		font-size: $scaleup-7;
+		overflow: hidden;
+
+		&:hover
+			opacity: .8;
+
+			.text
+				margin-bottom: 0;
+				margin-top: -28px;
+
+		.text
+			margin-bottom: -28px;
+			display: block;
+
+	.strava
+		background: $mblue;
+		color: lighten($mblue, 15);
+
+	.github
+		background: $berry;
+		color: lighten($berry, 15);
+
+	.twitter
+		background: $lblue;
+		color: lighten($lblue, 10);
+
+	.insta
+		background: $dblue;
+		color: lighten($dblue, 19);
+
+.questions
+	display: flex;
+	flex-wrap: wrap;
+
+.single-faq
+	overflow: hidden;
+	margin-bottom: $scaleup-4
+	flex: 0 0 50%;
+
+	.question
+		margin-bottom: 0
+		color: $mblue;
+		font-size: $scaleup-5;
+
+		&:hover
+			cursor: pointer;
+
+	.answer
+		max-height: 0;
+		transition: all 200ms;
+		color: #666;
+		overflow: hidden;
+
+@media (max-width: 680px)
+	.single-faq
+		flex: 0 0 100%;
+
+.single-faq.in .answer
+		max-height: 450px;
+
+.get-in-touch
+	background: fade-out($lblue, .8);
+
+@media (max-width: 65.0rem)
+
+	.around-web .column
+		overflow: hidden
+		height: 200px
+		position: relative
+		overflow: hidden
+
+		.text
+			transform: rotate(-90deg)
+			width: 210px
+			bottom: 65px
+			font-size: $scaleup-5
+			padding-top: $scaleup-4
+			margin-bottom: 0
+			position: absolute
+			right: -50px
+
+@media (min-width: 40.0rem)
+
+	.heart,
+	.see-more
+		display: block
+
+
+/* Larger than tablet screen */
+// @media (min-width: 80.0rem)
+
+/* Larger than desktop screen */
+// @media (min-width: 120.0rem)
+
+// height MQ
+@media (min-height: 900px)
+	.intro
+
+		.mountain
+			margin-top: -80px
+			margin-bottom: 0
