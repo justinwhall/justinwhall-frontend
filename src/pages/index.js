@@ -12,7 +12,7 @@ import '../sass/milligram.sass';
 const title = [
   'Web Developer',
   'Front-End Engineer',
-  'UIUX advocate',
+  'UIUX Advocate',
   'Software Builder',
   'Open Source Contributor',
   'Mountain Biker',
