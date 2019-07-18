@@ -9,23 +9,53 @@ import Mountain from '../images/mtn.svg';
 import Heart from '../images/heart.svg';
 import '../sass/milligram.sass';
 
+const title = [
+  'Web Developer',
+  'Front-End Engineer',
+  'UIUX advocate',
+  'Software Builder',
+  'Open Source Contributor',
+  'Mountain Biker',
+  'Agile Participant',
+]
 export default class Home extends React.Component {
   state = {
     mtnOpacity : 0,
     hearClass: '',
+    index: 0,
+    title: title[0],
+  }
+
+  tick() {
+    const { index } = this.state;
+    const nextIndex = title.length === (index + 1) ? 0 : index + 1;
+
+    this.setState(prevState => ({
+      index: nextIndex,
+      title: title[nextIndex],
+    }));
   }
 
   componentDidMount() {
-    setTimeout(() => {
+    this.interval = setInterval(() => this.tick(), 2000);
+
+    this.mtn = setTimeout(() => {
       this.setState({
         mtnOpacity: 1
       })
     }, 100);
-    setTimeout(() => {
+
+    this.heart = setTimeout(() => {
       this.setState({
         heartClass: "start"
       })
     }, 700);
+  }
+
+  componentWillUnmount() {
+      clearInterval(this.interval);
+      clearTimeout(this.mtn);
+      clearTimeout(this.heart);
   }
 
   scrollToMore = () => {
@@ -44,7 +74,7 @@ export default class Home extends React.Component {
               <div className="my-name">My name is Justin Windsor Hall</div>
             </div>
 
-            <div className="secondary">I'm a Denver, CO based web developer</div>
+            <div className="secondary">I'm a Denver, CO based <span className='l-blue'>{this.state.title}</span></div>
             <div className="mountain">
               <Mountain style={{'opacity': this.state.mtnOpacity}} />
             </div>
