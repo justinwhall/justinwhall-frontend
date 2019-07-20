@@ -109,13 +109,14 @@ const Resume = () => (
         </ul>
         <h2>Libraries, Frameworks &amp; Tooling</h2>
         <ul>
-          <li>jQuery</li>
           <li>React</li>
           <li>Preact</li>
+          <li>jQuery</li>
           <li>GatsbyJS</li>
           <li>Jekyll</li>
           <li>WordPress</li>
           <li>Gulp</li>
+          <li>Webpack</li>
           <li>SASS/LESS</li>
           <li>Git</li>
         </ul>
