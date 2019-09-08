@@ -14,7 +14,7 @@ const jobs = [
     title: 'Senior Full Stack Engineer',
     location: 'Denver, CO',
     time: 'February 2019 - Present',
-    desc: 'Acquired by Twilio. Job responsibilities remain largely the same',
+    desc: 'Acquired by Twilio. Job responsibilities remain largely the same.',
     link: 'https://twilio.com',
   },
   {
@@ -130,46 +130,6 @@ const Resume = () => (
           </div>
         </div>
       ))}
-      <div className="skills">
-        <h2>Languages</h2>
-        <ul>
-          <li>JavaScript</li>
-          <li>NodeJS</li>
-          <li>PHP</li>
-          <li>Java</li>
-          <li>ColdFusion</li>
-          <li>HTML</li>
-          <li>CSS</li>
-        </ul>
-        <h2>Libraries, Frameworks &amp; Tooling</h2>
-        <ul>
-          <li>React</li>
-          <li>Preact</li>
-          <li>jQuery</li>
-          <li>GatsbyJS</li>
-          <li>Jekyll</li>
-          <li>WordPress</li>
-          <li>Gulp</li>
-          <li>Webpack</li>
-          <li>SASS/LESS</li>
-          <li>Git</li>
-        </ul>
-        <h2>Services etc</h2>
-        <ul>
-          <li>
-            Amazon Web Services
-            <ul>
-              <li>S3</li>
-              <li>CloudFront</li>
-              <li>Lambda</li>
-              <li>API Gateway</li>
-              <li>Route53</li>
-            </ul>
-          </li>
-          <li>Various CIs</li>
-          <li>MySQL</li>
-        </ul>
-      </div>
     </div>
     <div className="container">
       <button
