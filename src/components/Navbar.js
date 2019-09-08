@@ -13,10 +13,6 @@ const Navbar = () => (
           <div className="name-wrap">
             <Link to="/">
               <span className="site-title name">Justin W. Hall</span>
-              {' '}
-              <span className="divider">/</span>
-              {' '}
-              <span className="site-title title">Web Developer</span>
             </Link>
           </div>
         </div>
