@@ -100,7 +100,7 @@ const Resume = () => (
             rel="noopener noreferrer"
             href="https://github.com/justinwhall"
           >
-            GitHub
+            https://github.com/justinwhall
           </a>
         </div>
       </div>
