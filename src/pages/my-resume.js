@@ -32,7 +32,7 @@ const jobs = [
     location: 'Distributed & Denver, CO',
     time: 'November 2012 - June 2017',
     desc:
-      'GDW is a hybrid SaSS/marketing company. Their software is a multi-tenant application built for healthcare providers to administer their web presence and automate marketing services. I was the senior and lead front end developer on a small engineering team. I worked on both the public and private side of the App but my main responsibility was the development of the frontend editing experience.',
+      'GDW is a hybrid SaSS/marketing company. Their software is a multi-tenant application built for healthcare providers to administer their web presence and automate marketing services. I was the senior and lead front-end developer on a small engineering team. I worked on both the public and private side of the App but my main responsibility was the development of the front-end editing experience.',
     link: 'https://greatdentalwebsites.com',
   },
   {
