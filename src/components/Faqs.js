@@ -3,7 +3,7 @@ import React from 'react';
 const questions = [
   {
     question: 'How much do you cost?',
-    answer: 'This depends on a number of factors. Specifically but not limited to, project size, my role in the project and whether there is ongoing work to be had. As a general rule, I charge 95/hour and don\'t take projects under 1k.'
+    answer: 'This depends on a number of factors. Specifically but not limited to, project size, my role in the project and whether there is ongoing work to be had. As a general rule, I charge 100/hour and don\'t take projects under 3k.'
   },
   {
     question: 'Can your provide hosting?',
