@@ -99,7 +99,7 @@ export default class Home extends React.Component {
                 {' '}
                 <a target="_blank" rel="noopener noreferrer" href="https://www.littlebot.io">Plugin Developer,</a>
                 {' and half of '}
-                <a target="_blank" rel="noopener noreferrer" href="https://staticfuse.com">Static Fuse.</a>
+                <a target="_blank" rel="noopener noreferrer" href="https://staticfuse.com">Static Fuse</a>
                 {`. I'm especially interested in the headless CMS space, serverless, Gatsby and WordPress. `}
                 <a target="_blank" rel="noopener noreferrer" href="https://github.com/justinwhall/justinwhall-frontend">This website </a> {`was built with WordPress + Gatsby + AWS. ❤️`}
               </p>
