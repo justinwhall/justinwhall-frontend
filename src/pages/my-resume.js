@@ -28,7 +28,7 @@ const jobs = [
   },
   {
     workplace: 'Prime Practice / Great Dental Websites',
-    title: 'Senior Front End-Engineer',
+    title: 'Senior Front End Engineer',
     location: 'Distributed & Denver, CO',
     time: 'November 2012 - June 2017',
     desc:
