@@ -64,7 +64,7 @@ export default class Home extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <Helmet title="Justin W Hall | Denver & Boulder Colorado WordPress Developer & Designer" />
+        <Helmet title="Justin W Hall | Denver & Boulder Colorado Front End Software Engineer" />
         <MenuOverlay />
         <main>
           <div className="intro">
@@ -127,7 +127,7 @@ export default class Home extends React.Component {
                 >
                   Static Fuse
                 </a>
-                {`. I'm especially interested in the headless CMS space, serverless, Gatsby and WordPress. `}
+                {`. I'm especially interested in the headless CMS space, Gatsby and GraphQL. `}
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
