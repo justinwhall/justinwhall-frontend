@@ -11,15 +11,15 @@ const breadCrumbs = [
 const jobs = [
   {
     workplace: 'Twilio SendGrid',
-    title: 'Senior Full Stack Engineer',
+    title: 'Senior Developer',
     location: 'Denver, CO',
-    time: 'February 2019 - Present',
+    time: 'February 2019 - January 2020',
     desc: 'Acquired by Twilio. Job responsibilities remain largely the same.',
     link: 'https://twilio.com',
   },
   {
     workplace: 'SendGrid',
-    title: 'Senior Web Developer',
+    title: 'Senior Developer',
     location: 'Denver, CO',
     time: 'July 2017 - February 2019',
     desc:
