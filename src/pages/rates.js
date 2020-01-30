@@ -21,7 +21,7 @@ const rates = [
   },
 ]
 const NotFoundPage = () => (
-  <Layout title="404" breadCrumbs={breadCrumbs}>
+  <Layout title="Rates" breadCrumbs={breadCrumbs}>
     <div class="container">
       <h1>Rates</h1>
       <p>
