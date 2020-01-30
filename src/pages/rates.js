@@ -22,7 +22,7 @@ const rates = [
 ]
 const NotFoundPage = () => (
   <Layout title="404" breadCrumbs={breadCrumbs}>
-    <div>
+    <div class="container">
       <h1>Rates</h1>
       <p>
         For projects under 10 hours, I charge <strong>100/hour</strong>
