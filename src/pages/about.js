@@ -104,10 +104,10 @@ const About = () => (
       </p>
       <div
         style={{
-          'grid-template-columns': 'auto auto auto',
+          gridTemplateColumns: 'auto auto auto',
           display: 'grid',
-          'grid-column-gap': '20px',
-          'margin-bottom': '50px',
+          gridColumnGap: '20px',
+          marginBottom: '50px',
         }}
       >
         <img src="https://littlebot.io/justin-w-hall-2.png" />
