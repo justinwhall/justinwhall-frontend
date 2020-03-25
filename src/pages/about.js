@@ -106,7 +106,7 @@ const About = () => (
         style={{
           gridTemplateColumns: 'auto auto auto',
           display: 'grid',
-          gridColumnGap: '20px',
+          gridColumnGjap: '20px',
           marginBottom: '50px',
         }}
       >
