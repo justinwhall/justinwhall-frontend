@@ -38,6 +38,9 @@ class MenuOverlay extends React.Component {
                 <Link to="/web-development-blog/">BLOG</Link>
               </li>
               <li>
+                <Link to="/ABOUT/">ABOUT</Link>
+              </li>
+              <li>
                 <a targset="_blank" href="https://www.littlebot.io">
                   PLUGINS
                 </a>
