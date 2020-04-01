@@ -110,7 +110,7 @@ export default class Home extends React.Component {
                   rel="noopener noreferrer"
                   href="https://alley.co"
                 >
-                  Alley
+                  Alley,
                 </a>{' '}
                 <a
                   target="_blank"

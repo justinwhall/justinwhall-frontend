@@ -26,7 +26,7 @@ const About = () => (
           rel="noopener noreferrer"
           href="https://alley.co"
         >
-          Alley
+          Alley,
         </a>{' '}
         <a
           target="_blank"
