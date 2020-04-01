@@ -13,13 +13,20 @@ const About = () => (
     <div className="container">
       <h1>About</h1>
       <p>
-        {`I'm a Senior Developer at `}
+        {`I'm a Senior Software Developer at `}
         <a
           target="_blank"
           rel="noopener noreferrer"
           href="https://sendgrid.com"
         >
-          SendGrid,
+          <strike>SendGrid</strike>
+        </a>{' '}
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://alley.co"
+        >
+          Alley
         </a>{' '}
         <a
           target="_blank"

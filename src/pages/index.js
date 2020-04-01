@@ -97,13 +97,20 @@ export default class Home extends React.Component {
             <div className="container">
               <h2>Modern Websites &amp; Software</h2>
               <p>
-                {`I'm a Senior Developer at `}
+                {`I'm a Senior Software Developer at `}
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://sendgrid.com"
                 >
-                  SendGrid,
+                  <strike>SendGrid</strike>
+                </a>{' '}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://alley.co"
+                >
+                  Alley
                 </a>{' '}
                 <a
                   target="_blank"
