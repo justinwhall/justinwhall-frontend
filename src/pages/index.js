@@ -124,7 +124,7 @@ export default class Home extends React.Component {
                   rel="noopener noreferrer"
                   href="https://www.littlebot.io"
                 >
-                  Plugin Developer.
+                  Plugin Developer
                 </a>
                 {`. I'm especially interested in the headless CMS space, Gatsby and GraphQL. `}
                 <a
