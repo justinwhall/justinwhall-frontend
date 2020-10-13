@@ -118,21 +118,13 @@ export default class Home extends React.Component {
                   href="https://www.justinwhall.com/"
                 >
                   Freelancer,
-                </a>{' '}
+                </a>{' and '}
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://www.littlebot.io"
                 >
-                  Plugin Developer,
-                </a>
-                {' and half of '}
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://staticfuse.com"
-                >
-                  Static Fuse
+                  Plugin Developer.
                 </a>
                 {`. I'm especially interested in the headless CMS space, Gatsby and GraphQL. `}
                 <a
