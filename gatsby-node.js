@@ -101,73 +101,73 @@ exports.createPages = ({ actions, graphql }) => {
         component: blogTemplate,
       })
     })
-    .then(() => graphql(`
-        {
-          allWordpressCategory(filter: { count: { gt: 0 } }) {
-            edges {
-              node {
-                id
-                name
-                slug
-              }
-            }
-          }
-        }
-      `))
-    .then(result => {
-      if (result.errors) {
-        result.errors.forEach(e => console.error(e.toString()))
-        return Promise.reject(result.errors)
-      }
+    // .then(() => graphql(`
+    //     {
+    //       allWordpressCategory(filter: { count: { gt: 0 } }) {
+    //         edges {
+    //           node {
+    //             id
+    //             name
+    //             slug
+    //           }
+    //         }
+    //       }
+    //     }
+    //   `))
+    // .then(result => {
+    //   if (result.errors) {
+    //     result.errors.forEach(e => console.error(e.toString()))
+    //     return Promise.reject(result.errors)
+    //   }
 
-      const categoriesTemplate = path.resolve(`./src/templates/category.js`)
+    //   const categoriesTemplate = path.resolve(`./src/templates/category.js`)
 
-      // Create a Gatsby page for each WordPress Category
-      _.each(result.data.allWordpressCategory.edges, ({ node: cat }) => {
-        createPage({
-          path: `/categories/${cat.slug}/`,
-          component: categoriesTemplate,
-          context: {
-            name: cat.name,
-            slug: cat.slug,
-          },
-        })
-      })
-    })
-    .then(() => graphql(`
-        {
-          allWordpressTag(filter: { count: { gt: 0 } }) {
-            edges {
-              node {
-                id
-                name
-                slug
-              }
-            }
-          }
-        }
-      `))
+    //   // Create a Gatsby page for each WordPress Category
+    //   _.each(result.data.allWordpressCategory.edges, ({ node: cat }) => {
+    //     createPage({
+    //       path: `/categories/${cat.slug}/`,
+    //       component: categoriesTemplate,
+    //       context: {
+    //         name: cat.name,
+    //         slug: cat.slug,
+    //       },
+    //     })
+    //   })
+    // })
+    // .then(() => graphql(`
+    //     {
+    //       allWordpressTag(filter: { count: { gt: 0 } }) {
+    //         edges {
+    //           node {
+    //             id
+    //             name
+    //             slug
+    //           }
+    //         }
+    //       }
+    //     }
+    //   `))
 
-    .then(result => {
-      if (result.errors) {
-        result.errors.forEach(e => console.error(e.toString()))
-        return Promise.reject(result.errors)
-      }
+    // .then(result => {
+    //   if (result.errors) {
+    //     result.errors.forEach(e => console.error(e.toString()))
+    //     return Promise.reject(result.errors)
+    //   }
 
-      const tagsTemplate = path.resolve(`./src/templates/tag.js`)
+    //   const tagsTemplate = path.resolve(`./src/templates/tag.js`)
 
-      // Create a Gatsby page for each WordPress tag
-      _.each(result.data.allWordpressTag.edges, ({ node: tag }) => {
-        createPage({
-          path: `/tags/${tag.slug}/`,
-          component: tagsTemplate,
-          context: {
-            name: tag.name,
-            slug: tag.slug,
-          },
-        })
-      })
-    })
+    //   // Create a Gatsby page for each WordPress tag
+    //   _.each(result.data.allWordpressTag.edges, ({ node: tag }) => {
+    //     createPage({
+    //       path: `/tags/${tag.slug}/`,
+    //       component: tagsTemplate,
+    //       context: {
+    //         name: tag.name,
+    //         slug: tag.slug,
+    //       },
+    //     })
+    //   })
+    // })
     .then(() => graphql(`
         {
           allWordpressWpUsers {

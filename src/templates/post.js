@@ -46,7 +46,10 @@ const BlogPost = ({ data }) => {
 
   return (
     <Layout breadCrumbs={breadCrumbs} title={post.title} date={post.date}>
-      <Helmet title={`${post.title} | Justin W. Hall`} />
+      <Helmet>
+        <title>{`${post.title} | Justin W. Hall`}</title>
+        {post.slug === 'three-weeks-in-new-zealand-by-campervan' && <link rel="canonical" href="https://vite.bike/article/mountain-biking-new-zealand-in-february-by-campervan" />}
+      </Helmet>
       <BlogPostTemplate
         content={post.content}
         categories={post.categories}
