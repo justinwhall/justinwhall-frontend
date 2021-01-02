@@ -118,13 +118,13 @@ export default class Home extends React.Component {
                   href="https://www.justinwhall.com/"
                 >
                   Freelancer,
-                </a>{' and '}
+                </a>{' and part time engineer at '}
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://vite.bike"
                 >
-                  Mountain Biker.
+                  ViteBike
                 </a>
                 {`. I'm especially interested in the headless CMS space, Gatsby and GraphQL. `}
                 <a
