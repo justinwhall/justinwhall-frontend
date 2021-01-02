@@ -18,28 +18,11 @@ const Footer = () => (
                 <Link to="/web-development-blog/">BLOG</Link>
               </li>
               <li className="menu-item">
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="http://windsorup.com/"
-                >
-                  MAINTENANCE
-                </a>
-              </li>
-              <li className="menu-item">
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://www.littlebot.io"
-                >
-                  PLUGINS
-                </a>
-              </li>
-              <li className="menu-item">
                 <Link to="/contact/">CONTACT</Link>
               </li>
             </ul>
-          </div>{' '}
+          </div>
+          {' '}
         </div>
         <div className="column copy">© 2020 Justin W Hall</div>
       </div>
