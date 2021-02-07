@@ -14,7 +14,7 @@ const jobs = [
     title: 'Senior Software Developer',
     location: 'Remote',
     time: 'March 202020 - Current',
-    desc: 'At Alley, I\'m on the data team and where we support the egineering efforts of large scale publishers like the Brookings Institute and work on data visual applications for orginizations like Kaiser Family Foundation and the National Science Foundation.',
+    desc: 'At Alley, I\'m on the data team where we support the engineering efforts of large scale publishers like the Brookings Institute and work on data visualization applications for organizations like Kaiser Family Foundation and the National Science Foundation.',
     link: 'https://alley.co',
   },
   {
