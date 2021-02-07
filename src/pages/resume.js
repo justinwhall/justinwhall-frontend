@@ -10,8 +10,16 @@ const breadCrumbs = [
 
 const jobs = [
   {
+    workplace: 'Alley',
+    title: 'Senior Software Developer',
+    location: 'Remote',
+    time: 'March 202020 - Current',
+    desc: 'At Alley, I\'m on the data team and where we support the egineering efforts of large scale publishers like the Brookings Institute and work on data visual applications for orginizations like Kaiser Family Foundation and the National Science Foundation.',
+    link: 'https://alley.co',
+  },
+  {
     workplace: 'Twilio SendGrid',
-    title: 'Senior Developer',
+    title: 'Senior Full Stack Engineer',
     location: 'Denver, CO',
     time: 'February 2019 - January 2020',
     desc: 'Acquired by Twilio. Job responsibilities remain largely the same.',
