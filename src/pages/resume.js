@@ -115,8 +115,7 @@ const Resume = () => (
       <div className="education">
         <h2>Education</h2>
         <div>
-          University of New Hampshire | BS in Mathematics &amp; BA in
-          Communications
+          Colby Sawyer College | BA inCommunications
         </div>
       </div>
       <h2>Experience</h2>
