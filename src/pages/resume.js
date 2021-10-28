@@ -10,17 +10,25 @@ const breadCrumbs = [
 
 const jobs = [
   {
+    workplace: 'Lede',
+    title: 'Senior Software Developer',
+    location: 'Remote',
+    time: 'May 2021 - Current',
+    desc: 'At Alley, I\'m on the data team where we support the engineering efforts of large scale publishers like the Brookings Institute and work on data visualization applications for organizations like Kaiser Family Foundation and the National Science Foundation.',
+    link: 'https://joinlede.com',
+  },
+  {
     workplace: 'Alley',
     title: 'Senior Software Developer',
     location: 'Remote',
-    time: 'March 2020 - Current',
+    time: 'March 2020 - May 2021',
     desc: 'At Alley, I\'m on the data team where we support the engineering efforts of large scale publishers like the Brookings Institute and work on data visualization applications for organizations like Kaiser Family Foundation and the National Science Foundation.',
     link: 'https://alley.co',
   },
   {
     workplace: 'Twilio SendGrid',
     title: 'Senior Full Stack Engineer',
-    location: 'Denver, CO',
+    location: 'Remote & Denver, CO',
     time: 'February 2019 - January 2020',
     desc: 'Acquired by Twilio. Job responsibilities remain largely the same.',
     link: 'https://twilio.com',
@@ -37,7 +45,7 @@ const jobs = [
   {
     workplace: 'Prime Practice / Great Dental Websites',
     title: 'Senior Front End Engineer',
-    location: 'Distributed & Denver, CO',
+    location: 'Remote & Denver, CO',
     time: 'November 2012 - June 2017',
     desc:
       'GDW is a hybrid SaSS/marketing company. Their software is a multi-tenant, single instance application built for healthcare providers to administer their web presence and automate marketing services. I was the senior and lead front-end developer on a small engineering team. I worked on both the public and private side of the App but my main responsibility was the development of the front-end editing experience.',
@@ -49,7 +57,7 @@ const jobs = [
     title: 'Owner, Operator & Janitor',
     time: 'March 2008 - Present',
     desc:
-      'My personal freelance LLC. At times, it was my primary source of income. Clients include direct-to-customer and agency contract work. Projects vary, but involve everything from hosting migrations, application development, bug fixes and support.',
+      'My personal freelance LLC. At times, it was my primary source of income. Clients include direct-to-customer and agency contract work.',
     link: 'https://justinwhall.com',
   },
   {
@@ -115,7 +123,7 @@ const Resume = () => (
       <div className="education">
         <h2>Education</h2>
         <div>
-          Colby Sawyer College | BA inCommunications
+          Colby Sawyer College | BA Communications &amp; Graphic Design
         </div>
       </div>
       <h2>Experience</h2>
