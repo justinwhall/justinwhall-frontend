@@ -118,14 +118,15 @@ export default class Home extends React.Component {
                   href="https://joinlede.com"
                 >
                   Lede,
-                </a>{' and somtimes'}
+                </a>{' and somtimes '}
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://www.justinwhall.com/"
                 >
-                  Freelancer.{' '}
+                  Freelancer.
                 </a>
+                {' '}
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
