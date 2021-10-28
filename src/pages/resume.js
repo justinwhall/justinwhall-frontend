@@ -14,7 +14,7 @@ const jobs = [
     title: 'Senior Software Developer',
     location: 'Remote',
     time: 'May 2021 - Current',
-    desc: 'At Alley, I\'m on the data team where we support the engineering efforts of large scale publishers like the Brookings Institute and work on data visualization applications for organizations like Kaiser Family Foundation and the National Science Foundation.',
+    desc: 'Lede, a subsidiary of Alley, is a content subscription platform for small and local publishers. My focus is on the front end and node applications that power various growth and subscription features.',
     link: 'https://joinlede.com',
   },
   {
@@ -22,7 +22,7 @@ const jobs = [
     title: 'Senior Software Developer',
     location: 'Remote',
     time: 'March 2020 - May 2021',
-    desc: 'At Alley, I\'m on the data team where we support the engineering efforts of large scale publishers like the Brookings Institute and work on data visualization applications for organizations like Kaiser Family Foundation and the National Science Foundation.',
+    desc: 'At Alley, I was on the data team where we supported the engineering efforts of large scale publishers like the Brookings Institute and work on data visualization applications for organizations like Kaiser Family Foundation and the National Science Foundation.',
     link: 'https://alley.co',
   },
   {
@@ -57,14 +57,14 @@ const jobs = [
     title: 'Owner, Operator & Janitor',
     time: 'March 2008 - Present',
     desc:
-      'My personal freelance LLC. At times, it was my primary source of income. Clients include direct-to-customer and agency contract work.',
+      'My personal freelance software LLC. At times, it was my primary source of income.',
     link: 'https://justinwhall.com',
   },
   {
     workplace: 'Howell Ltd',
     location: 'Portland, ME',
     title: 'Production Designer',
-    time: 'June 2003 - March 2008',
+    time: 'June 2004 - March 2008',
     desc:
       'Now defunct, Howell Ltd provided a number of marketing services. I was on the production team. As a junior employee, my responsibilities ranged from preparing and editing images within the Adobe Creative Suite for print and web, basic HTML and even more basic ActionScript.',
     link: null,

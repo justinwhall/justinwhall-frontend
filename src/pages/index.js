@@ -110,23 +110,22 @@ export default class Home extends React.Component {
                   rel="noopener noreferrer"
                   href="https://alley.co"
                 >
-                  Alley,
+                  <strike>Alley</strike>,
                 </a>{' '}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://joinlede.com"
+                >
+                  Lede,
+                </a>{' and somtimes'}
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://www.justinwhall.com/"
                 >
-                  Freelancer,
-                </a>{' and part time engineer at '}
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://vite.bike"
-                >
-                  ViteBike
+                  Freelancer.
                 </a>
-                {`. I'm especially interested in the headless CMS space, Gatsby and GraphQL. `}
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
@@ -134,7 +133,7 @@ export default class Home extends React.Component {
                 >
                   This website{' '}
                 </a>{' '}
-                {`was built with WordPress + Gatsby + AWS. ❤️`}
+                {`was built with Gatsby + AWS. ❤️`}
               </p>
               <p>
                 {`Solving real-world problems with software is my favorite part of my job. It's not only challenging but exceedingly rewarding. I love what I do.`}
@@ -185,7 +184,6 @@ export default class Home extends React.Component {
             </div>
           </div>
           <Social />
-          <Faqs />
           <ContactForm />
         </main>
         <Footer />
