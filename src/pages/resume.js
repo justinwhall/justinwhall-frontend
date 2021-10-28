@@ -14,7 +14,7 @@ const jobs = [
     title: 'Senior Software Developer',
     location: 'Remote',
     time: 'May 2021 - Current',
-    desc: 'Lede, a subsidiary of Alley, is a content subscription platform for small and local publishers. My focus is on the front end and node applications that power various growth and subscription features.',
+    desc: 'Lede, a subsidiary of Alley, is a content subscription platform for small and medium publishers. My focus is on the front end and node applications that power various growth and subscription features.',
     link: 'https://joinlede.com',
   },
   {
