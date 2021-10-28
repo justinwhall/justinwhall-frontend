@@ -124,16 +124,16 @@ export default class Home extends React.Component {
                   rel="noopener noreferrer"
                   href="https://www.justinwhall.com/"
                 >
-                  Freelancer.
+                  Freelancer.{' '}
                 </a>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://github.com/justinwhall/justinwhall-frontend"
                 >
-                  This website{' '}
+                  This website
                 </a>{' '}
-                {`was built with Gatsby + AWS. ❤️`}
+                {` was built with Gatsby + AWS. ❤️`}
               </p>
               <p>
                 {`Solving real-world problems with software is my favorite part of my job. It's not only challenging but exceedingly rewarding. I love what I do.`}
