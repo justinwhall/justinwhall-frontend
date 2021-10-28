@@ -12,9 +12,6 @@ const Footer = () => (
                 <Link to="/">HOME</Link>
               </li>
               <li className="menu-item">
-                <Link to="/work/">WORK</Link>
-              </li>
-              <li className="menu-item">
                 <Link to="/web-development-blog/">BLOG</Link>
               </li>
               <li className="menu-item">
