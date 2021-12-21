@@ -97,7 +97,7 @@ export default class Home extends React.Component {
             <div className="container">
               <h2>Modern Websites &amp; Software</h2>
               <p>
-                {`I'm a Senior Software Developer at `}
+                {`I'm a Senior Software Engineer at `}
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
@@ -117,7 +117,14 @@ export default class Home extends React.Component {
                   rel="noopener noreferrer"
                   href="https://joinlede.com"
                 >
-                  Lede,
+                  <strike>Lede,</strike>
+                </a>{' '}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://learnwithhomer.com"
+                >
+                  HOMER,
                 </a>{' and somtimes '}
                 <a
                   target="_blank"

@@ -13,52 +13,51 @@ const About = () => (
     <div className="container">
       <h1>About</h1>
       <p>
-        {`I'm a Senior Software Developer at `}
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://sendgrid.com"
-        >
-          <strike>SendGrid</strike>
-        </a>{' '}
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://alley.co"
-        >
-          Alley,
-        </a>{' '}
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://www.justinwhall.com/"
-        >
-          Freelancer,
-        </a>{' '}
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://www.littlebot.io"
-        >
-          Plugin Developer,
-        </a>
-        {' and half of '}
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://staticfuse.com"
-        >
-          Static Fuse
-        </a>
-        {`. I'm especially interested in the headless CMS space, Gatsby and GraphQL. `}
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://github.com/justinwhall/justinwhall-frontend"
-        >
-          This website{' '}
-        </a>{' '}
-        {`was built with WordPress + Gatsby + AWS. ❤️`}
+                {`I'm a Senior Software Engineer at `}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://sendgrid.com"
+                >
+                  <strike>SendGrid</strike>
+                </a>{' '}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://alley.co"
+                >
+                  <strike>Alley</strike>,
+                </a>{' '}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://joinlede.com"
+                >
+                  <strike>Lede,</strike>
+                </a>{' '}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://learnwithhomer.com"
+                >
+                  HOMER,
+                </a>{' and somtimes '}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.justinwhall.com/"
+                >
+                  Freelancer.
+                </a>
+                {' '}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/justinwhall/justinwhall-frontend"
+                >
+                  This website
+                </a>{' '}
+                {` was built with Gatsby + AWS. ❤️`}
       </p>
       <p>
         {`Solving real-world problems with software is my favorite part of my job. It's not only challenging but exceedingly rewarding. I love what I do.`}
