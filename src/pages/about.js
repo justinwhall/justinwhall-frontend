@@ -13,7 +13,7 @@ const About = () => (
     <div className="container">
       <h1>About</h1>
       <p>
-                {`I'm a Senior Software Engineer at `}
+                {`I'm a Staff Software Engineer at `}
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
@@ -41,13 +41,13 @@ const About = () => (
                   href="https://learnwithhomer.com"
                 >
                   HOMER,
-                </a>{' and somtimes '}
+                </a>{' '}
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://www.justinwhall.com/"
+                  href="https://https://henryscheinone.com"
                 >
-                  Freelancer.
+                  Henry Schein One.
                 </a>
                 {' '}
                 <a
