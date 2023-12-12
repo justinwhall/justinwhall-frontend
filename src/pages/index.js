@@ -122,9 +122,9 @@ export default class Home extends React.Component {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://learnwithhomer.com"
+                  href="https://www.beginlearning.com/"
                 >
-                  HOMER,
+                  <strike>BEGiN</strike>
                 </a>{' '}
                 <a
                   target="_blank"
