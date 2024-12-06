@@ -56,7 +56,7 @@ const About = () => (
         </a>
       </p>
       <p>
-        {`I am a front-end focused, full-stack capable engineer with a strong product sense. I have a great depth of experince building complex, accessible, and performant web applications.`}      
+        {`I am a front-end focused, full-stack capable engineer with a strong product sense. I have a great depth of experince building complex, accessible, and performant web applications.`}
       </p>
       <p>
         {'Offline, I live just outside of Denver, CO in '}
@@ -115,7 +115,7 @@ const About = () => (
           marginBottom: '50px',
         }}
       >
-        <img src="/static/image1.png" />
+        <img src="/image1.png" />
       </div>
     </div>
   </Layout>
