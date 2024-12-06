@@ -13,48 +13,48 @@ module.exports = {
           include: /images/
       }
     },
-    {
-      resolve: 'gatsby-source-wordpress',
-      options: {
-        // The base url to your WP site.
-        baseUrl: 'data.justinwhall.com',
-        // WP.com sites set to true, WP.org set to false
-        hostingWPCOM: false,
-        // The protocol. This can be http or https.
-        protocol: 'https',
-        // Use 'Advanced Custom Fields' Wordpress plugin
-        useACF: false,
-        // Set to true to debug endpoints on 'gatsby build'
-        verboseOutput: false,
+    // {
+    //   resolve: 'gatsby-source-wordpress',
+    //   options: {
+    //     // The base url to your WP site.
+    //     baseUrl: 'data.justinwhall.com',
+    //     // WP.com sites set to true, WP.org set to false
+    //     hostingWPCOM: false,
+    //     // The protocol. This can be http or https.
+    //     protocol: 'https',
+    //     // Use 'Advanced Custom Fields' Wordpress plugin
+    //     useACF: false,
+    //     // Set to true to debug endpoints on 'gatsby build'
+    //     verboseOutput: false,
 
-        includedRoutes: [
-          "/*/*/acf",
-          "/*/*/categories",
-          "/*/*/posts",
-          "/*/*/pages",
-          "/*/*/tags",
-          "/*/*/taxonomies",
-          "/*/*/users",
-        ],
-        excludedRoutes: [
-          "/*/*/acf/options/**"
-        ],
-        normalizer({ entities }) {
+    //     includedRoutes: [
+    //       "/*/*/acf",
+    //       "/*/*/categories",
+    //       "/*/*/posts",
+    //       "/*/*/pages",
+    //       "/*/*/tags",
+    //       "/*/*/taxonomies",
+    //       "/*/*/users",
+    //     ],
+    //     excludedRoutes: [
+    //       "/*/*/acf/options/**"
+    //     ],
+    //     normalizer({ entities }) {
 
-          const normalized = entities.map(node => {
-            if (node.acf) {
-               if (typeof node.acf.featured_banner !== 'object') {
-                node.acf.featured_banner = {};
-               }
-            }
-            return node;
-          })
+    //       const normalized = entities.map(node => {
+    //         if (node.acf) {
+    //            if (typeof node.acf.featured_banner !== 'object') {
+    //             node.acf.featured_banner = {};
+    //            }
+    //         }
+    //         return node;
+    //       })
 
 
-          return normalized;
-        },
-      },
-    },
+    //       return normalized;
+    //     },
+    //   },
+    // },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
