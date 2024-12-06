@@ -115,7 +115,24 @@ const About = () => (
           marginBottom: '50px',
         }}
       >
-        <img src="/image1.png" />
+
+        <style jsx>
+          {`.image-container {
+  display: flex;
+  justify-content: space-around; /* Adjust as needed */
+  align-items: center; /* Adjust as needed */
+}
+
+.image-container img {
+  max-width: 100%; /* Adjust as needed */
+  height: auto; /* Adjust as needed */
+}`}
+        </style>
+        <div className="image-container">
+          <img src="/image1.png" />
+          <img src="/image2.png" />
+          <img src="/image3.png" />
+        </div>
       </div>
     </div>
   </Layout>
