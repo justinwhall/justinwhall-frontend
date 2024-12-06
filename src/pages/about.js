@@ -118,9 +118,10 @@ const About = () => (
 
         <style jsx>
           {`.image-container {
-  display: flex;
-  justify-content: space-around; /* Adjust as needed */
-  align-items: center; /* Adjust as needed */
+              display: grid;
+              grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+              grid-gap: 20px;
+              margin-bottom: 50px;
 }
 
 .image-container img {
