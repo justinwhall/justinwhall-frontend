@@ -134,17 +134,9 @@ export default class Home extends React.Component {
                   Henry Schein One.
                 </a>
                 {' '}
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://github.com/justinwhall/justinwhall-frontend"
-                >
-                  This website
-                </a>{' '}
-                {` was built with Gatsby + AWS. ❤️`}
               </p>
               <p>
-                {`Solving real-world problems with software is my favorite part of my job. It's not only challenging but exceedingly rewarding. I love what I do.`}
+                {`I am a front-end focused, full-stack capable engineer with a strong product sense. I have a great depth of experince building complex, accessible, and performant web applications.`}
               </p>
               <p>
                 {'Offline, I live just outside of Denver, CO in '}

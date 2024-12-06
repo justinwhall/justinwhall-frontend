@@ -13,54 +13,50 @@ const About = () => (
     <div className="container">
       <h1>About</h1>
       <p>
-                {`I'm a Staff Software Engineer at `}
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://sendgrid.com"
-                >
-                  <strike>SendGrid</strike>
-                </a>{' '}
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://alley.co"
-                >
-                  <strike>Alley</strike>,
-                </a>{' '}
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://joinlede.com"
-                >
-                  <strike>Lede,</strike>
-                </a>{' '}
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://www.beginlearning.com/"
-                >
-                  <strike>BEGiN</strike>
-                </a>{' '}
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://https://henryscheinone.com"
-                >
+        {`I'm a Staff Software Engineer at `}
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://sendgrid.com"
+        >
+          <strike>SendGrid</strike>
+        </a>
+        {' '}
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://alley.co"
+        >
+          <strike>Alley</strike>
+,
+        </a>
+        {' '}
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://joinlede.com"
+        >
+          <strike>Lede,</strike>
+        </a>
+        {' '}
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.beginlearning.com/"
+        >
+          <strike>BEGiN</strike>
+        </a>
+        {' '}
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://https://henryscheinone.com"
+        >
                   Henry Schein One.
-                </a>
-                {' '}
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://github.com/justinwhall/justinwhall-frontend"
-                >
-                  This website
-                </a>{' '}
-                {` was built with Gatsby + AWS. ❤️`}
+        </a>
       </p>
       <p>
-        {`Solving real-world problems with software is my favorite part of my job. It's not only challenging but exceedingly rewarding. I love what I do.`}
+        {`I am a front-end focused, full-stack capable engineer with a strong product sense. I have a great depth of experince building complex, accessible, and performant web applications.`}      
       </p>
       <p>
         {'Offline, I live just outside of Denver, CO in '}
@@ -77,7 +73,8 @@ const About = () => (
           rel="noopener noreferrer"
           href="https://www.instagram.com/p/BCEyvSjDgj-/?taken-by=justinwindhall"
         >
-          avid mountain biker,{' '}
+          avid mountain biker,
+          {' '}
         </a>
         <a
           target="_blank"
@@ -106,7 +103,9 @@ const About = () => (
         .
       </p>
       <p>
-        Say 👋 on Twitter <a href="https://twitter/justinwhall">@justinwhall</a>
+        Say 👋 on Twitter
+        {' '}
+        <a href="https://twitter/justinwhall">@justinwhall</a>
       </p>
       <div
         style={{
@@ -116,9 +115,7 @@ const About = () => (
           marginBottom: '50px',
         }}
       >
-        <img src="https://littlebot.io/justin-w-hall-2.png" />
-        <img src="https://littlebot.io/justin-w-hall-3.png" />
-        <img src="https://littlebot.io/justin-w-hall.png" />
+        <img src="/static/image1.png" />
       </div>
     </div>
   </Layout>

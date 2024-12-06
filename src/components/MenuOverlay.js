@@ -35,9 +35,6 @@ class MenuOverlay extends React.Component {
                 <Link to="/">HOME</Link>
               </li>
               <li>
-                <Link to="/web-development-blog/">BLOG</Link>
-              </li>
-              <li>
                 <Link to="/about/">ABOUT</Link>
               </li>
               <li>
